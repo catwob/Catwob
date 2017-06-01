@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/MyCatwobExtensions/MyCatwobExtensions.mpl" folder="languages" />
+      <modulePath path="$PROJECT_DIR$/languages/acceptanceTest/acceptanceTest.mpl" folder="languages" />
+      <modulePath path="$PROJECT_DIR$/languages/gherkin/gherkin.mpl" folder="languages" />
+      <modulePath path="$PROJECT_DIR$/languages/gherkin/sandbox/sandbox.msd" folder="solutions" />
+      <modulePath path="$PROJECT_DIR$/languages/gherkin_with_seleniumtest/gherkin_with_seleniumtest.mpl" folder="languages" />
+      <modulePath path="$PROJECT_DIR$/languages/gherkin_with_seleniumtest/sandbox/gherkin_with_seleniumtest.sandbox.msd" folder="solutions" />
+      <modulePath path="$PROJECT_DIR$/languages/permissions/permissions.mpl" folder="languages" />
+      <modulePath path="$PROJECT_DIR$/languages/prose/prose.mpl" folder="languages" />
+      <modulePath path="$PROJECT_DIR$/languages/prose_formal_integration/prose_formal_integration.mpl" folder="languages" />
+      <modulePath path="$PROJECT_DIR$/languages/seleniumtest/seleniumtest.mpl" folder="languages" />
+      <modulePath path="$PROJECT_DIR$/languages/usecaseform/sandbox/sandbox.msd" folder="solutions" />
+      <modulePath path="$PROJECT_DIR$/languages/usecaseform/usecaseform.mpl" folder="languages" />
+      <modulePath path="$PROJECT_DIR$/languages/xml/de.kontext_e.xml.mpl" folder="languages" />
+      <modulePath path="$PROJECT_DIR$/solutions/SeleniumLibs.runtime/SeleniumLibs.runtime.msd" folder="solutions" />
+      <modulePath path="$PROJECT_DIR$/solutions/Specification/Specification.msd" folder="solutions" />
+      <modulePath path="$PROJECT_DIR$/solutions/Tutorial/Tutorial.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/prose.sandbox/prose.sandbox.msd" folder="solutions" />
+      <modulePath path="$PROJECT_DIR$/solutions/seleniumtest.sandbox/sandbox.msd" folder="solutions" />
+    </projectModules>
+  </component>
+</project>
+

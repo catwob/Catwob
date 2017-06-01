@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="tyly" modelUID="r:ea55c8ba-f72e-4e24-b218-ab8f1262db67(seleniumtest.structure)" version="-1" />
+    </dependencies>
+    <rename id="tyly.4835308565241671538" type="CONCEPT" from="TestStep" to="TestStepAction" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="tyly" modelUID="r:ea55c8ba-f72e-4e24-b218-ab8f1262db67(seleniumtest.structure)" version="0" />
+    </dependencies>
+    <rename id="tyly.4835308565241671536" type="CONCEPT" from="TestSuite" to="TestCase" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="tyly" modelUID="r:ea55c8ba-f72e-4e24-b218-ab8f1262db67(seleniumtest.structure)" version="1" />
+    </dependencies>
+    <rename id="tyly.293457361420118570" type="CONCEPT" from="ClickOnElementWithId" to="ClickOnElementWithIdTestStep" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="tyly" modelUID="r:ea55c8ba-f72e-4e24-b218-ab8f1262db67(seleniumtest.structure)" version="2" />
+    </dependencies>
+    <rename id="tyly.1678115870556295762" type="CONCEPT" from="ClickOnElementByXPath" to="ClickOnElementByXPathTestStep" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="tyly" modelUID="r:ea55c8ba-f72e-4e24-b218-ab8f1262db67(seleniumtest.structure)" version="3" />
+    </dependencies>
+    <rename id="tyly.8963935442635955563" type="CONCEPT" from="Select" to="SelectFormElement" />
+  </StructureModification>
+</history>
+

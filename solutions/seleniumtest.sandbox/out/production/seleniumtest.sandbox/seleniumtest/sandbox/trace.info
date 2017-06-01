@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="4835308565241673709" modelId="r:b49ef564-502a-44f2-ab82-74854831796a(seleniumtest.sandbox)">
+    <nodeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="14" startPosition="22" endLine="15" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="driver" />
+    <nodeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="15" startPosition="27" endLine="16" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="selenium" />
+    <nodeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="18" startPosition="20" endLine="19" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="19" startPosition="33" endLine="20" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="20" startPosition="79" endLine="21" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="27" startPosition="26" endLine="28" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="4835308565241681774" fileName="WebTest.java" startLine="31" startPosition="57" endLine="32" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3309158584036416111" fileName="WebTest.java" startLine="33" startPosition="64" endLine="34" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+    <nodeInfo nodeId="3309158584036381020" fileName="WebTest.java" startLine="36" startPosition="5" endLine="37" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3309158584036381020" fileName="WebTest.java" startLine="37" startPosition="89" endLine="38" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3309158584036416117" fileName="WebTest.java" startLine="40" startPosition="80" endLine="41" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+    <nodeInfo nodeId="3309158584036384835" fileName="WebTest.java" startLine="43" startPosition="5" endLine="44" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3309158584036384835" fileName="WebTest.java" startLine="44" startPosition="89" endLine="45" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3309158584036416121" fileName="WebTest.java" startLine="47" startPosition="80" endLine="48" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+    <nodeInfo nodeId="4678225303944148561" fileName="WebTest.java" startLine="50" startPosition="5" endLine="51" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4678225303944148561" fileName="WebTest.java" startLine="51" startPosition="97" endLine="52" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4678225303944148561" fileName="WebTest.java" startLine="52" startPosition="20" endLine="53" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4678225303944148561" fileName="WebTest.java" startLine="53" startPosition="57" endLine="54" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4678225303944148561" fileName="WebTest.java" startLine="54" startPosition="108" endLine="55" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4678225303944148561" fileName="WebTest.java" startLine="55" startPosition="94" endLine="56" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4678225303944148561" fileName="WebTest.java" startLine="57" startPosition="11" endLine="58" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4678225303944148561" fileName="WebTest.java" startLine="58" startPosition="27" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="4678225303944148563" fileName="WebTest.java" startLine="63" startPosition="5" endLine="64" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4678225303944148563" fileName="WebTest.java" startLine="64" startPosition="95" endLine="65" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4678225303944148563" fileName="WebTest.java" startLine="65" startPosition="20" endLine="66" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4678225303944148563" fileName="WebTest.java" startLine="66" startPosition="57" endLine="67" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4678225303944148563" fileName="WebTest.java" startLine="67" startPosition="106" endLine="68" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4678225303944148563" fileName="WebTest.java" startLine="68" startPosition="92" endLine="69" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4678225303944148563" fileName="WebTest.java" startLine="70" startPosition="11" endLine="71" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4678225303944148563" fileName="WebTest.java" startLine="71" startPosition="27" endLine="72" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="3309158584036405738" fileName="WebTest.java" startLine="76" startPosition="5" endLine="77" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3309158584036405738" fileName="WebTest.java" startLine="77" startPosition="96" endLine="78" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3309158584036405743" fileName="WebTest.java" startLine="80" startPosition="5" endLine="81" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3309158584036405743" fileName="WebTest.java" startLine="81" startPosition="98" endLine="82" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3309158584036405745" fileName="WebTest.java" startLine="84" startPosition="5" endLine="85" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3309158584036405745" fileName="WebTest.java" startLine="85" startPosition="97" endLine="86" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4678225303944149816" fileName="WebTest.java" startLine="88" startPosition="5" endLine="89" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4678225303944149816" fileName="WebTest.java" startLine="89" startPosition="94" endLine="90" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4678225303944149818" fileName="WebTest.java" startLine="92" startPosition="5" endLine="93" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4678225303944149818" fileName="WebTest.java" startLine="93" startPosition="100" endLine="94" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4678225303944149818" fileName="WebTest.java" startLine="94" startPosition="20" endLine="95" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4678225303944149818" fileName="WebTest.java" startLine="95" startPosition="57" endLine="96" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4678225303944149818" fileName="WebTest.java" startLine="96" startPosition="109" endLine="97" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4678225303944149818" fileName="WebTest.java" startLine="97" startPosition="95" endLine="98" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4678225303944149818" fileName="WebTest.java" startLine="99" startPosition="11" endLine="100" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4678225303944149818" fileName="WebTest.java" startLine="100" startPosition="27" endLine="101" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="4678225303944155538" fileName="WebTest.java" startLine="105" startPosition="5" endLine="106" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4678225303944155538" fileName="WebTest.java" startLine="106" startPosition="124" endLine="107" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4678225303944155540" fileName="WebTest.java" startLine="109" startPosition="5" endLine="110" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4678225303944155540" fileName="WebTest.java" startLine="110" startPosition="121" endLine="111" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4678225303944163028" fileName="WebTest.java" startLine="113" startPosition="5" endLine="114" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4678225303944163028" fileName="WebTest.java" startLine="114" startPosition="96" endLine="115" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3309158584036416126" fileName="WebTest.java" startLine="117" startPosition="80" endLine="118" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+    <nodeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="122" startPosition="70" endLine="123" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="123" startPosition="36" endLine="124" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="124" startPosition="20" endLine="125" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="125" startPosition="26" endLine="126" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="23" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setUp#()V" />
+    <nodeInfo nodeId="3309158584036416111" fileName="WebTest.java" startLine="32" startPosition="42" endLine="35" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3309158584036416111" fileName="WebTest.java" startLine="32" startPosition="42" endLine="35" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3309158584036416117" fileName="WebTest.java" startLine="39" startPosition="5" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3309158584036416117" fileName="WebTest.java" startLine="39" startPosition="5" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3309158584036416121" fileName="WebTest.java" startLine="46" startPosition="5" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3309158584036416121" fileName="WebTest.java" startLine="46" startPosition="5" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3309158584036416126" fileName="WebTest.java" startLine="116" startPosition="5" endLine="119" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3309158584036416126" fileName="WebTest.java" startLine="116" startPosition="5" endLine="119" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="tearDown#()V" />
+    <nodeInfo nodeId="3309158584036381020" fileName="WebTest.java" startLine="35" startPosition="5" endLine="39" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3309158584036384835" fileName="WebTest.java" startLine="42" startPosition="5" endLine="46" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3309158584036405738" fileName="WebTest.java" startLine="75" startPosition="5" endLine="79" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3309158584036405743" fileName="WebTest.java" startLine="79" startPosition="5" endLine="83" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3309158584036405745" fileName="WebTest.java" startLine="83" startPosition="5" endLine="87" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4678225303944149816" fileName="WebTest.java" startLine="87" startPosition="5" endLine="91" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4678225303944155538" fileName="WebTest.java" startLine="104" startPosition="5" endLine="108" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4678225303944155540" fileName="WebTest.java" startLine="108" startPosition="5" endLine="112" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4678225303944163028" fileName="WebTest.java" startLine="112" startPosition="5" endLine="116" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="17" startPosition="0" endLine="22" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="WebTest#()V" />
+    <nodeInfo nodeId="4678225303944148561" fileName="WebTest.java" startLine="56" startPosition="24" endLine="61" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+    <nodeInfo nodeId="4678225303944148563" fileName="WebTest.java" startLine="69" startPosition="24" endLine="74" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+    <nodeInfo nodeId="4678225303944149818" fileName="WebTest.java" startLine="98" startPosition="24" endLine="103" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+    <nodeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="121" startPosition="0" endLine="128" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <nodeInfo nodeId="4678225303944148561" fileName="WebTest.java" startLine="49" startPosition="5" endLine="62" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4678225303944148563" fileName="WebTest.java" startLine="62" startPosition="5" endLine="75" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4678225303944149818" fileName="WebTest.java" startLine="91" startPosition="5" endLine="104" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="30" startPosition="0" endLine="121" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="executeTest#()V" />
+    <scopeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="24" startPosition="23" endLine="24" endPosition="23" />
+    <scopeInfo nodeId="4678225303944148561" fileName="WebTest.java" startLine="60" startPosition="0" endLine="60" endPosition="29">
+      <varInfo nodeId="4678225303944148561" varName="e" />
+    </scopeInfo>
+    <scopeInfo nodeId="4678225303944148561" fileName="WebTest.java" startLine="60" startPosition="29" endLine="60" endPosition="29" />
+    <scopeInfo nodeId="4678225303944148563" fileName="WebTest.java" startLine="73" startPosition="0" endLine="73" endPosition="29">
+      <varInfo nodeId="4678225303944148563" varName="e" />
+    </scopeInfo>
+    <scopeInfo nodeId="4678225303944148563" fileName="WebTest.java" startLine="73" startPosition="29" endLine="73" endPosition="29" />
+    <scopeInfo nodeId="4678225303944149818" fileName="WebTest.java" startLine="102" startPosition="0" endLine="102" endPosition="29">
+      <varInfo nodeId="4678225303944149818" varName="e" />
+    </scopeInfo>
+    <scopeInfo nodeId="4678225303944149818" fileName="WebTest.java" startLine="102" startPosition="29" endLine="102" endPosition="29" />
+    <scopeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="27" startPosition="26" endLine="28" endPosition="14" />
+    <scopeInfo nodeId="3309158584036416111" fileName="WebTest.java" startLine="33" startPosition="64" endLine="34" endPosition="76" />
+    <scopeInfo nodeId="3309158584036416117" fileName="WebTest.java" startLine="40" startPosition="80" endLine="41" endPosition="92" />
+    <scopeInfo nodeId="3309158584036416121" fileName="WebTest.java" startLine="47" startPosition="80" endLine="48" endPosition="92" />
+    <scopeInfo nodeId="3309158584036416126" fileName="WebTest.java" startLine="117" startPosition="80" endLine="118" endPosition="92" />
+    <scopeInfo nodeId="3309158584036381020" fileName="WebTest.java" startLine="36" startPosition="5" endLine="38" endPosition="19">
+      <varInfo nodeId="3309158584036381020" varName="link" />
+    </scopeInfo>
+    <scopeInfo nodeId="3309158584036384835" fileName="WebTest.java" startLine="43" startPosition="5" endLine="45" endPosition="19">
+      <varInfo nodeId="3309158584036384835" varName="link" />
+    </scopeInfo>
+    <scopeInfo nodeId="4678225303944148561" fileName="WebTest.java" startLine="57" startPosition="11" endLine="59" endPosition="0" />
+    <scopeInfo nodeId="4678225303944148563" fileName="WebTest.java" startLine="70" startPosition="11" endLine="72" endPosition="0" />
+    <scopeInfo nodeId="3309158584036405738" fileName="WebTest.java" startLine="76" startPosition="5" endLine="78" endPosition="29">
+      <varInfo nodeId="3309158584036405738" varName="input" />
+    </scopeInfo>
+    <scopeInfo nodeId="3309158584036405743" fileName="WebTest.java" startLine="80" startPosition="5" endLine="82" endPosition="28">
+      <varInfo nodeId="3309158584036405743" varName="input" />
+    </scopeInfo>
+    <scopeInfo nodeId="3309158584036405745" fileName="WebTest.java" startLine="84" startPosition="5" endLine="86" endPosition="39">
+      <varInfo nodeId="3309158584036405745" varName="input" />
+    </scopeInfo>
+    <scopeInfo nodeId="4678225303944149816" fileName="WebTest.java" startLine="88" startPosition="5" endLine="90" endPosition="42">
+      <varInfo nodeId="4678225303944149816" varName="input" />
+    </scopeInfo>
+    <scopeInfo nodeId="4678225303944149818" fileName="WebTest.java" startLine="99" startPosition="11" endLine="101" endPosition="0" />
+    <scopeInfo nodeId="4678225303944155538" fileName="WebTest.java" startLine="105" startPosition="5" endLine="107" endPosition="20">
+      <varInfo nodeId="4678225303944155538" varName="input" />
+    </scopeInfo>
+    <scopeInfo nodeId="4678225303944155540" fileName="WebTest.java" startLine="109" startPosition="5" endLine="111" endPosition="20">
+      <varInfo nodeId="4678225303944155540" varName="input" />
+    </scopeInfo>
+    <scopeInfo nodeId="4678225303944163028" fileName="WebTest.java" startLine="113" startPosition="5" endLine="115" endPosition="20">
+      <varInfo nodeId="4678225303944163028" varName="input" />
+    </scopeInfo>
+    <scopeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="18" startPosition="20" endLine="21" endPosition="78" />
+    <scopeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="23" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="3309158584036416111" fileName="WebTest.java" startLine="32" startPosition="42" endLine="35" endPosition="5" />
+    <scopeInfo nodeId="3309158584036416117" fileName="WebTest.java" startLine="39" startPosition="5" endLine="42" endPosition="5" />
+    <scopeInfo nodeId="3309158584036416121" fileName="WebTest.java" startLine="46" startPosition="5" endLine="49" endPosition="5" />
+    <scopeInfo nodeId="3309158584036416126" fileName="WebTest.java" startLine="116" startPosition="5" endLine="119" endPosition="5" />
+    <scopeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="122" startPosition="70" endLine="126" endPosition="23">
+      <varInfo nodeId="4835308565241673709" varName="webTest" />
+    </scopeInfo>
+    <scopeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="17" startPosition="0" endLine="22" endPosition="3" />
+    <scopeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="121" startPosition="0" endLine="128" endPosition="0">
+      <varInfo nodeId="4835308565241673709" varName="args" />
+    </scopeInfo>
+    <scopeInfo nodeId="4678225303944148561" fileName="WebTest.java" startLine="50" startPosition="5" endLine="61" endPosition="7">
+      <varInfo nodeId="4678225303944148561" varName="input" />
+      <varInfo nodeId="4678225303944148561" varName="liElement" />
+      <varInfo nodeId="4678225303944148561" varName="wait" />
+    </scopeInfo>
+    <scopeInfo nodeId="4678225303944148563" fileName="WebTest.java" startLine="63" startPosition="5" endLine="74" endPosition="7">
+      <varInfo nodeId="4678225303944148563" varName="input" />
+      <varInfo nodeId="4678225303944148563" varName="liElement" />
+      <varInfo nodeId="4678225303944148563" varName="wait" />
+    </scopeInfo>
+    <scopeInfo nodeId="4678225303944149818" fileName="WebTest.java" startLine="92" startPosition="5" endLine="103" endPosition="7">
+      <varInfo nodeId="4678225303944149818" varName="input" />
+      <varInfo nodeId="4678225303944149818" varName="liElement" />
+      <varInfo nodeId="4678225303944149818" varName="wait" />
+    </scopeInfo>
+    <scopeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="31" startPosition="57" endLine="119" endPosition="5" />
+    <scopeInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="30" startPosition="0" endLine="121" endPosition="0" />
+    <unitInfo nodeId="4835308565241673709" fileName="WebTest.java" startLine="14" startPosition="0" endLine="129" endPosition="0" unitName="seleniumtest.sandbox.WebTest" />
+  </root>
+</debugInfo>
+

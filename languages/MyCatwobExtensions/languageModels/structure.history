@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="ytqb" modelUID="r:f24fb939-6892-4a5f-ba62-a9ac6c9199c9(MyCatwobExtensions.structure)" version="-1" />
+    </dependencies>
+    <rename id="ytqb.7085852093701323424" type="CONCEPT" from="ExpectImpressungLink" to="ExpectImpressumLink" />
+  </StructureModification>
+</history>
+
