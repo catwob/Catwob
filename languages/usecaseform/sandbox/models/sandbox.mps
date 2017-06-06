@@ -47,7 +47,7 @@
       <node role="testStepList" roleId="tyly.5714731814612002001" type="tyly.TestStepList" typeId="tyly.5714731814611894450" id="6588785161165753392" nodeInfo="ng">
         <node role="testSteps" roleId="tyly.5714731814611898124" type="tyly.TestStep" typeId="tyly.3309158584036411081" id="1678115870556754824" nodeInfo="ng">
           <node role="action" roleId="tyly.3309158584036411083" type="tyly.OpenUrlTestStep" typeId="tyly.4835308565241671539" id="1678115870556754825" nodeInfo="ng">
-            <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:9966/petclinic/" />
+            <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:8080" />
           </node>
           <node role="expectedResults" roleId="tyly.3309158584036411084" type="tyly.AssertTitle" typeId="tyly.3309158584036411068" id="1678115870556754826" nodeInfo="ng">
             <property name="title" nameId="tyly.3309158584036411070" value="PetClinic :: a Spring Framework demonstration" />
@@ -127,7 +127,7 @@
       <node role="testStepList" roleId="tyly.5714731814612002001" type="tyly.TestStepList" typeId="tyly.5714731814611894450" id="6588785161165753909" nodeInfo="ng">
         <node role="testSteps" roleId="tyly.5714731814611898124" type="tyly.TestStep" typeId="tyly.3309158584036411081" id="1678115870556755504" nodeInfo="ng">
           <node role="action" roleId="tyly.3309158584036411083" type="tyly.OpenUrlTestStep" typeId="tyly.4835308565241671539" id="1678115870556755505" nodeInfo="ng">
-            <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:9966/petclinic/owners/new" />
+            <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:8080/owners/new" />
           </node>
           <node role="expectedResults" roleId="tyly.3309158584036411084" type="tyly.AssertTitle" typeId="tyly.3309158584036411068" id="1678115870556755506" nodeInfo="ng">
             <property name="title" nameId="tyly.3309158584036411070" value="PetClinic :: a Spring Framework demonstration" />
@@ -161,8 +161,8 @@
               <property name="text" nameId="tyly.3309158584036401681" value="3518889990" />
             </node>
             <node role="elements" roleId="tyly.3309158584036401664" type="tyly.ButtonFormElement" typeId="tyly.4678225303944157014" id="8963935442635838985" nodeInfo="ng">
-              <property name="attribute" nameId="tyly.4678225303944157018" value="name" />
-              <property name="selector" nameId="tyly.4678225303944157019" value="AddOwner" />
+              <property name="attribute" nameId="tyly.4678225303944157018" value="id" />
+              <property name="selector" nameId="tyly.4678225303944157019" value="ButtonAddOwner" />
             </node>
           </node>
           <node role="expectedResults" roleId="tyly.3309158584036411084" type="tyly.AssertTitle" typeId="tyly.3309158584036411068" id="1678115870556755069" nodeInfo="ng">
@@ -171,7 +171,7 @@
           <node role="expectedResults" roleId="tyly.3309158584036411084" type="tyly.AssertVisibleText" typeId="tyly.293457361419593556" id="1678115870556755070" nodeInfo="ng">
             <property name="text" nameId="tyly.293457361419593611" value="Bitte geben Sie den Betreff ein" />
             <node role="visibleText" roleId="tyly.4320950636549751980" type="tyly.StaticVisibleText" typeId="tyly.4320950636549753364" id="4320950636550339247" nodeInfo="ng">
-              <property name="text" nameId="tyly.4320950636549753367" value="Add New Pet" />
+              <property name="text" nameId="tyly.4320950636549753367" value="New Pet" />
             </node>
           </node>
         </node>
@@ -253,7 +253,7 @@
           <node role="testStepList" roleId="tyly.5714731814612002001" type="tyly.TestStepList" typeId="tyly.5714731814611894450" id="2545926969874037401" nodeInfo="ng">
             <node role="testSteps" roleId="tyly.5714731814611898124" type="tyly.TestStep" typeId="tyly.3309158584036411081" id="2545926969874037402" nodeInfo="ng">
               <node role="action" roleId="tyly.3309158584036411083" type="tyly.OpenUrlTestStep" typeId="tyly.4835308565241671539" id="2545926969874037403" nodeInfo="ng">
-                <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:9966/petclinic/" />
+                <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:8080" />
               </node>
               <node role="expectedResults" roleId="tyly.3309158584036411084" type="tyly.AssertTitle" typeId="tyly.3309158584036411068" id="2545926969874037404" nodeInfo="ng">
                 <property name="title" nameId="tyly.3309158584036411070" value="PetClinic :: a Spring Framework demonstration" />
@@ -333,7 +333,7 @@
           <node role="testStepList" roleId="tyly.5714731814612002001" type="tyly.TestStepList" typeId="tyly.5714731814611894450" id="2545926969874037430" nodeInfo="ng">
             <node role="testSteps" roleId="tyly.5714731814611898124" type="tyly.TestStep" typeId="tyly.3309158584036411081" id="2545926969874037431" nodeInfo="ng">
               <node role="action" roleId="tyly.3309158584036411083" type="tyly.OpenUrlTestStep" typeId="tyly.4835308565241671539" id="2545926969874037432" nodeInfo="ng">
-                <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:9966/petclinic/owners/new" />
+                <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:8080/owners/new" />
               </node>
               <node role="expectedResults" roleId="tyly.3309158584036411084" type="tyly.AssertTitle" typeId="tyly.3309158584036411068" id="2545926969874037433" nodeInfo="ng">
                 <property name="title" nameId="tyly.3309158584036411070" value="PetClinic :: a Spring Framework demonstration" />
@@ -367,8 +367,8 @@
                   <property name="text" nameId="tyly.3309158584036401681" value="3518889990" />
                 </node>
                 <node role="elements" roleId="tyly.3309158584036401664" type="tyly.ButtonFormElement" typeId="tyly.4678225303944157014" id="2545926969874037441" nodeInfo="ng">
-                  <property name="attribute" nameId="tyly.4678225303944157018" value="name" />
-                  <property name="selector" nameId="tyly.4678225303944157019" value="AddOwner" />
+                  <property name="attribute" nameId="tyly.4678225303944157018" value="id" />
+                  <property name="selector" nameId="tyly.4678225303944157019" value="ButtonAddOwner" />
                 </node>
               </node>
               <node role="expectedResults" roleId="tyly.3309158584036411084" type="tyly.AssertTitle" typeId="tyly.3309158584036411068" id="2545926969874037442" nodeInfo="ng">
@@ -377,7 +377,7 @@
               <node role="expectedResults" roleId="tyly.3309158584036411084" type="tyly.AssertVisibleText" typeId="tyly.293457361419593556" id="2545926969874037443" nodeInfo="ng">
                 <property name="text" nameId="tyly.293457361419593611" value="Bitte geben Sie den Betreff ein" />
                 <node role="visibleText" roleId="tyly.4320950636549751980" type="tyly.StaticVisibleText" typeId="tyly.4320950636549753364" id="2545926969874037444" nodeInfo="ng">
-                  <property name="text" nameId="tyly.4320950636549753367" value="Add New Pet" />
+                  <property name="text" nameId="tyly.4320950636549753367" value="New Pet" />
                 </node>
               </node>
             </node>

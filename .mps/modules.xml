@@ -15,6 +15,7 @@
       <modulePath path="$PROJECT_DIR$/languages/usecaseform/sandbox/sandbox.msd" folder="solutions" />
       <modulePath path="$PROJECT_DIR$/languages/usecaseform/usecaseform.mpl" folder="languages" />
       <modulePath path="$PROJECT_DIR$/languages/xml/de.kontext_e.xml.mpl" folder="languages" />
+      <modulePath path="$PROJECT_DIR$/solutions/PageObjects/PageObjects.msd" folder="solutions" />
       <modulePath path="$PROJECT_DIR$/solutions/SeleniumLibs.runtime/SeleniumLibs.runtime.msd" folder="solutions" />
       <modulePath path="$PROJECT_DIR$/solutions/Specification/Specification.msd" folder="solutions" />
       <modulePath path="$PROJECT_DIR$/solutions/Tutorial/Tutorial.msd" folder="" />

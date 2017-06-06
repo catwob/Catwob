@@ -20,6 +20,7 @@
   <language namespace="b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)" />
   <import index="tpco" modelUID="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" version="-1" />
   <import index="j02o" modelUID="r:48e11a50-c2e4-498e-afc2-fefe986a3d00(seleniumtest.util)" version="-1" />
+  <import index="g7qz" modelUID="r:d56afd71-8f8d-458a-a844-2b83bfcd2343(PageObjects)" version="-1" />
   <import index="dby9" modelUID="r:c9eb1d88-4e3a-40e9-8a39-ddcec7080a6e(gherkin.structure)" version="2" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="gejo" modelUID="r:2057f3ad-19f6-44ca-bbd9-613e9b6a31fd(gherkin_with_seleniumtest.structure)" version="-1" implicit="yes" />
@@ -124,21 +125,21 @@
           <property name="name" nameId="tpck.1169194664001" value="nightly test" />
         </node>
         <node role="tags" roleId="dby9.6588785161155487752" type="dby9.Tag" typeId="dby9.3857348392598360576" id="1678115870561313956" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="crm module" />
+          <property name="name" nameId="tpck.1169194664001" value="master data" />
         </node>
         <node role="steps" roleId="dby9.3857348392598355686" type="dby9.GivenStep" typeId="dby9.3857348392598355673" id="7085852093701577221" nodeInfo="ng">
           <property name="isOpenPoint" nameId="dby9.7770493376438130832" value="false" />
           <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.TestStepActionTemplateFragment" typeId="gejo.3476584954795016517" id="7085852093701577229" nodeInfo="ng">
             <node role="testStepAction" roleId="gejo.293457361419317968" type="tyly.OpenUrlTestStep" typeId="tyly.4835308565241671539" id="7085852093701577235" nodeInfo="ng">
-              <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:9966/petclinic/" />
+              <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:8080" />
             </node>
           </node>
         </node>
         <node role="steps" roleId="dby9.3857348392598355686" type="dby9.WhenStep" typeId="dby9.3857348392598359998" id="1320776873640866680" nodeInfo="ng">
           <property name="isOpenPoint" nameId="dby9.7770493376438130832" value="false" />
-          <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.TestStepActionTemplateFragment" typeId="gejo.3476584954795016517" id="1320776873640866772" nodeInfo="ng">
-            <node role="testStepAction" roleId="gejo.293457361419317968" type="tyly.ClickLinkTestStep" typeId="tyly.3309158584036378013" id="1320776873640870786" nodeInfo="ng">
-              <property name="linkText" nameId="tyly.3309158584036378015" value="Find owners" />
+          <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.TestStepActionTemplateFragment" typeId="gejo.3476584954795016517" id="253874333479995820" nodeInfo="ng">
+            <node role="testStepAction" roleId="gejo.293457361419317968" type="tyly.ClickPageObjectElementTestStep" typeId="tyly.253874333479545403" id="253874333479995828" nodeInfo="ng">
+              <link role="pageObjectElement" roleId="tyly.253874333479545404" targetNodeId="g7qz.253874333479995726" resolveInfo="Menu Find owners" />
             </node>
           </node>
         </node>
@@ -155,7 +156,7 @@
           <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.ExpectedResultTemplateFragment" typeId="gejo.293457361419324910" id="1320776873640870828" nodeInfo="ng">
             <node role="expectedResult" roleId="gejo.293457361419324913" type="tyly.AssertVisibleText" typeId="tyly.293457361419593556" id="1320776873640870834" nodeInfo="ng">
               <node role="visibleText" roleId="tyly.4320950636549751980" type="tyly.StaticVisibleText" typeId="tyly.4320950636549753364" id="1320776873640870837" nodeInfo="ng">
-                <property name="text" nameId="tyly.4320950636549753367" value="New Owner" />
+                <property name="text" nameId="tyly.4320950636549753367" value="Owner" />
               </node>
             </node>
           </node>
@@ -192,6 +193,14 @@
             </node>
           </node>
         </node>
+        <node role="steps" roleId="dby9.3857348392598355686" type="dby9.AndStep" typeId="dby9.3857348392598360009" id="394734216639565490" nodeInfo="ng">
+          <property name="isOpenPoint" nameId="dby9.7770493376438130832" value="false" />
+          <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.TestStepActionTemplateFragment" typeId="gejo.3476584954795016517" id="394734216639565890" nodeInfo="ng">
+            <node role="testStepAction" roleId="gejo.293457361419317968" type="tyly.ClickPageObjectElementTestStep" typeId="tyly.253874333479545403" id="394734216639565894" nodeInfo="ng">
+              <link role="pageObjectElement" roleId="tyly.253874333479545404" targetNodeId="g7qz.394734216639565863" resolveInfo="Add Owner" />
+            </node>
+          </node>
+        </node>
         <node role="steps" roleId="dby9.3857348392598355686" type="dby9.ThenStep" typeId="dby9.3857348392598360002" id="1320776873640887376" nodeInfo="ng">
           <property name="isOpenPoint" nameId="dby9.7770493376438130832" value="false" />
           <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.ExpectedResultTemplateFragment" typeId="gejo.293457361419324910" id="1320776873640887402" nodeInfo="ng">
@@ -215,7 +224,7 @@
         <property name="isOpenPoint" nameId="dby9.7770493376438130832" value="false" />
         <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.TestStepActionTemplateFragment" typeId="gejo.3476584954795016517" id="4320950636549748397" nodeInfo="ng">
           <node role="testStepAction" roleId="gejo.293457361419317968" type="tyly.OpenUrlTestStep" typeId="tyly.4835308565241671539" id="4320950636549748403" nodeInfo="ng">
-            <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:9966/petclinic/" />
+            <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:8080" />
           </node>
         </node>
       </node>

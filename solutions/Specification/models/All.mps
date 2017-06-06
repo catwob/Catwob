@@ -12,6 +12,7 @@
   <import index="k5gm" modelUID="f:java_stub#b06f6336-6262-4aa6-9077-6428311586c7#org.openqa.selenium(seleniumtest/org.openqa.selenium@java_stub)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="qjxg" modelUID="f:java_stub#83f155ff-422c-4b5a-a2f2-b459302dd215#org.junit(jetbrains.mps.baseLanguage.unitTest.libs/org.junit@java_stub)" version="-1" />
+  <import index="g7qz" modelUID="r:d56afd71-8f8d-458a-a844-2b83bfcd2343(PageObjects)" version="-1" />
   <import index="dby9" modelUID="r:c9eb1d88-4e3a-40e9-8a39-ddcec7080a6e(gherkin.structure)" version="2" implicit="yes" />
   <import index="ytqb" modelUID="r:f24fb939-6892-4a5f-ba62-a9ac6c9199c9(MyCatwobExtensions.structure)" version="0" implicit="yes" />
   <import index="gejo" modelUID="r:2057f3ad-19f6-44ca-bbd9-613e9b6a31fd(gherkin_with_seleniumtest.structure)" version="-1" implicit="yes" />
@@ -26,15 +27,15 @@
         <property name="isOpenPoint" nameId="dby9.7770493376438130832" value="false" />
         <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.TestStepActionTemplateFragment" typeId="gejo.3476584954795016517" id="1320776873640880979" nodeInfo="ng">
           <node role="testStepAction" roleId="gejo.293457361419317968" type="tyly.OpenUrlTestStep" typeId="tyly.4835308565241671539" id="1320776873640880980" nodeInfo="ng">
-            <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:9966/petclinic/" />
+            <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:8080" />
           </node>
         </node>
       </node>
       <node role="steps" roleId="dby9.3857348392598355686" type="dby9.WhenStep" typeId="dby9.3857348392598359998" id="1320776873640880981" nodeInfo="ng">
         <property name="isOpenPoint" nameId="dby9.7770493376438130832" value="false" />
-        <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.TestStepActionTemplateFragment" typeId="gejo.3476584954795016517" id="1320776873640880982" nodeInfo="ng">
-          <node role="testStepAction" roleId="gejo.293457361419317968" type="tyly.ClickLinkTestStep" typeId="tyly.3309158584036378013" id="1320776873640880983" nodeInfo="ng">
-            <property name="linkText" nameId="tyly.3309158584036378015" value="Find owners" />
+        <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.TestStepActionTemplateFragment" typeId="gejo.3476584954795016517" id="253874333479995820" nodeInfo="ng">
+          <node role="testStepAction" roleId="gejo.293457361419317968" type="tyly.ClickPageObjectElementTestStep" typeId="tyly.253874333479545403" id="253874333479995828" nodeInfo="ng">
+            <link role="pageObjectElement" roleId="tyly.253874333479545404" targetNodeId="g7qz.253874333479995726" resolveInfo="Menu Find owners" />
           </node>
         </node>
       </node>
@@ -65,15 +66,15 @@
           <property name="isOpenPoint" nameId="dby9.7770493376438130832" value="false" />
           <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.TestStepActionTemplateFragment" typeId="gejo.3476584954795016517" id="7085852093701577229" nodeInfo="ng">
             <node role="testStepAction" roleId="gejo.293457361419317968" type="tyly.OpenUrlTestStep" typeId="tyly.4835308565241671539" id="7085852093701577235" nodeInfo="ng">
-              <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:9966/petclinic/" />
+              <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:8080" />
             </node>
           </node>
         </node>
         <node role="steps" roleId="dby9.3857348392598355686" type="dby9.WhenStep" typeId="dby9.3857348392598359998" id="1320776873640866680" nodeInfo="ng">
           <property name="isOpenPoint" nameId="dby9.7770493376438130832" value="false" />
-          <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.TestStepActionTemplateFragment" typeId="gejo.3476584954795016517" id="1320776873640866772" nodeInfo="ng">
-            <node role="testStepAction" roleId="gejo.293457361419317968" type="tyly.ClickLinkTestStep" typeId="tyly.3309158584036378013" id="1320776873640870786" nodeInfo="ng">
-              <property name="linkText" nameId="tyly.3309158584036378015" value="Find owners" />
+          <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.TestStepActionTemplateFragment" typeId="gejo.3476584954795016517" id="253874333479995899" nodeInfo="ng">
+            <node role="testStepAction" roleId="gejo.293457361419317968" type="tyly.ClickPageObjectElementTestStep" typeId="tyly.253874333479545403" id="253874333479995900" nodeInfo="ng">
+              <link role="pageObjectElement" roleId="tyly.253874333479545404" targetNodeId="g7qz.253874333479995726" resolveInfo="Menu Find owners" />
             </node>
           </node>
         </node>

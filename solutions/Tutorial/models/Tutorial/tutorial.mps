@@ -23,6 +23,7 @@
   <language namespace="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" />
   <language namespace="aee9cad2-acd4-4608-aef2-0004f6a1cdbd(jetbrains.mps.lang.actions)" />
   <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
+  <import index="g7qz" modelUID="r:d56afd71-8f8d-458a-a844-2b83bfcd2343(PageObjects)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="87nw" modelUID="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" version="5" implicit="yes" />
   <import index="ynoo" modelUID="r:9f7229f8-2b29-4871-bcfb-f094367d6e75(usecaseform.structure)" version="0" implicit="yes" />
@@ -66,7 +67,7 @@
               <property name="isOpenPoint" nameId="dby9.7770493376438130832" value="false" />
               <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.TestStepActionTemplateFragment" typeId="gejo.3476584954795016517" id="6588785161149854098" nodeInfo="ng">
                 <node role="testStepAction" roleId="gejo.293457361419317968" type="tyly.ClickPageObjectElementTestStep" typeId="tyly.253874333479545403" id="253874333479987490" nodeInfo="ng">
-                  <link role="pageObjectElement" roleId="tyly.253874333479545404" targetNodeId="253874333479545107" resolveInfo="Menu Veterinarians" />
+                  <link role="pageObjectElement" roleId="tyly.253874333479545404" targetNodeId="g7qz.253874333479545107" resolveInfo="Menu Veterinarians" />
                 </node>
               </node>
             </node>
@@ -292,13 +293,6 @@
       <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="5976164233147694404" nodeInfo="ng">
         <property name="escapedValue" nameId="87nw.2557074442922438158" value="\n" />
       </node>
-    </node>
-  </root>
-  <root type="tyly.PageObject" typeId="tyly.7671232318582104183" id="253874333478979438" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Home" />
-    <node role="elements" roleId="tyly.253874333478997837" type="tyly.PageObjectElement" typeId="tyly.253874333478979675" id="253874333479545107" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="Menu Veterinarians" />
-      <property name="xpath" nameId="tyly.253874333478984651" value="//span[contains(text(), 'Veterinarians')]" />
     </node>
   </root>
 </model>

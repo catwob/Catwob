@@ -18,6 +18,7 @@
   </stubModelEntries>
   <sourcePath />
   <dependencies>
+    <dependency reexport="false">65e4f890-9636-4a04-bae0-d728c59d51f4(PageObjects)</dependency>
     <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
     <dependency reexport="false">b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)</dependency>
   </dependencies>
