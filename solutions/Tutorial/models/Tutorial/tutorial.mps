@@ -175,15 +175,15 @@
                   <property name="isOpenPoint" nameId="dby9.7770493376438130832" value="false" />
                   <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.TestStepActionTemplateFragment" typeId="gejo.3476584954795016517" id="6588785161155428933" nodeInfo="ng">
                     <node role="testStepAction" roleId="gejo.293457361419317968" type="tyly.OpenUrlTestStep" typeId="tyly.4835308565241671539" id="6588785161155428939" nodeInfo="ng">
-                      <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:9966/petclinic/" />
+                      <property name="url" nameId="tyly.4835308565241678969" value="http://localhost:8080" />
                     </node>
                   </node>
                 </node>
                 <node role="steps" roleId="dby9.3857348392598355686" type="dby9.WhenStep" typeId="dby9.3857348392598359998" id="6588785161155428947" nodeInfo="ng">
                   <property name="isOpenPoint" nameId="dby9.7770493376438130832" value="false" />
-                  <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.TestStepActionTemplateFragment" typeId="gejo.3476584954795016517" id="6588785161155428955" nodeInfo="ng">
-                    <node role="testStepAction" roleId="gejo.293457361419317968" type="tyly.ClickLinkTestStep" typeId="tyly.3309158584036378013" id="6588785161155428961" nodeInfo="ng">
-                      <property name="linkText" nameId="tyly.3309158584036378015" value="Veterinarians" />
+                  <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.TestStepActionTemplateFragment" typeId="gejo.3476584954795016517" id="394734216639678373" nodeInfo="ng">
+                    <node role="testStepAction" roleId="gejo.293457361419317968" type="tyly.ClickPageObjectElementTestStep" typeId="tyly.253874333479545403" id="394734216639678381" nodeInfo="ng">
+                      <link role="pageObjectElement" roleId="tyly.253874333479545404" targetNodeId="g7qz.253874333479545107" resolveInfo="Menu Veterinarians" />
                     </node>
                   </node>
                 </node>

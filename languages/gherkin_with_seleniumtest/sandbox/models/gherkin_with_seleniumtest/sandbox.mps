@@ -139,7 +139,7 @@
           <property name="isOpenPoint" nameId="dby9.7770493376438130832" value="false" />
           <node role="fragments" roleId="dby9.8226624104361172654" type="gejo.TestStepActionTemplateFragment" typeId="gejo.3476584954795016517" id="253874333479995820" nodeInfo="ng">
             <node role="testStepAction" roleId="gejo.293457361419317968" type="tyly.ClickPageObjectElementTestStep" typeId="tyly.253874333479545403" id="253874333479995828" nodeInfo="ng">
-              <link role="pageObjectElement" roleId="tyly.253874333479545404" targetNodeId="g7qz.253874333479995726" resolveInfo="Menu Find owners" />
+              <link role="pageObjectElement" roleId="tyly.253874333479545404" targetNodeId="g7qz.253874333479995726" resolveInfo="Menu Home" />
             </node>
           </node>
         </node>
