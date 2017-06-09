@@ -18,6 +18,9 @@
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="96ee7a94-411d-4cf8-9b94-96cad7e52411(jetbrains.mps.baseLanguage.jdk7)" />
   <language namespace="b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)" />
+  <language namespace="5a83eb2c-e3ac-4d55-a0b7-7a942f48e419(MyCatwobExtensions)" />
+  <language namespace="cc4a6f18-bb5e-4187-ae12-d8dc9eac45ec(acceptanceTest)" />
+  <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" />
   <import index="tpco" modelUID="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" version="-1" />
   <import index="j02o" modelUID="r:48e11a50-c2e4-498e-afc2-fefe986a3d00(seleniumtest.util)" version="-1" />
   <import index="g7qz" modelUID="r:d56afd71-8f8d-458a-a844-2b83bfcd2343(PageObjects)" version="-1" />
@@ -25,6 +28,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="gejo" modelUID="r:2057f3ad-19f6-44ca-bbd9-613e9b6a31fd(gherkin_with_seleniumtest.structure)" version="-1" implicit="yes" />
   <import index="tyly" modelUID="r:ea55c8ba-f72e-4e24-b218-ab8f1262db67(seleniumtest.structure)" version="4" implicit="yes" />
+  <import index="ytqb" modelUID="r:f24fb939-6892-4a5f-ba62-a9ac6c9199c9(MyCatwobExtensions.structure)" version="0" implicit="yes" />
   <root type="dby9.FeatureSet" typeId="dby9.8106509643381773882" id="3476584954795045853" nodeInfo="ng">
     <property name="featureSetName" nameId="dby9.4069710482145333634" value="crm module" />
     <property name="iFeatureName" nameId="dby9.1678115870564596758" value="A feature set" />
@@ -298,6 +302,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node role="info" roleId="dby9.3857348392598329079" type="ytqb.FeatureInfoPicture" typeId="ytqb.3296276167014455758" id="8341339414226333203" nodeInfo="ng">
+      <property name="path" nameId="ytqb.8935273324434392083" value="c:/users/jn/Pictures\spring-petclinit-home.PNG" />
     </node>
   </root>
 </model>

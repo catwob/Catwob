@@ -23,11 +23,14 @@
     <dependency reexport="false">b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)</dependency>
   </dependencies>
   <usedLanguages>
+    <usedLanguage>5a83eb2c-e3ac-4d55-a0b7-7a942f48e419(MyCatwobExtensions)</usedLanguage>
+    <usedLanguage>cc4a6f18-bb5e-4187-ae12-d8dc9eac45ec(acceptanceTest)</usedLanguage>
     <usedLanguage>50acd4f7-7413-4754-889f-75b097780731(gherkin)</usedLanguage>
     <usedLanguage>db1020ba-f9b6-4964-a15b-2da816532a8e(gherkin_with_seleniumtest)</usedLanguage>
     <usedLanguage>96ee7a94-411d-4cf8-9b94-96cad7e52411(jetbrains.mps.baseLanguage.jdk7)</usedLanguage>
     <usedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</usedLanguage>
     <usedLanguage>18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)</usedLanguage>
+    <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
     <usedLanguage>b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)</usedLanguage>
   </usedLanguages>
 </solution>
