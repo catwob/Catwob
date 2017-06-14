@@ -303,8 +303,8 @@
         </node>
       </node>
     </node>
-    <node role="info" roleId="dby9.3857348392598329079" type="ytqb.FeatureInfoPicture" typeId="ytqb.3296276167014455758" id="8341339414226333203" nodeInfo="ng">
-      <property name="path" nameId="ytqb.8935273324434392083" value="c:/users/jn/Pictures\spring-petclinit-home.PNG" />
+    <node role="info" roleId="dby9.3857348392598329079" type="ytqb.FeatureInfoPicture" typeId="ytqb.3296276167014455758" id="8341339414226523130" nodeInfo="ng">
+      <property name="path" nameId="ytqb.8935273324434392083" value="c:/users/jn/pictures/spring-petclinit-home.png" />
     </node>
   </root>
 </model>

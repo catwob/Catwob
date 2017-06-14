@@ -36,6 +36,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4835308565241671536" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="TestCase" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/selenium-logo16.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2423988946885429228" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="testCaseName" />
