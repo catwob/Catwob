@@ -2,7 +2,7 @@
 <model ref="r:235edbac-993e-4e55-81c7-ed16bd5568b5(permissions.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -76,7 +76,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F2HdR" id="2QvXcs2RJC7" role="3EZMnx">
-          <ref role="1NtTu8" to="94to:2QvXcs2RJBS" />
+          <ref role="1NtTu8" to="94to:2QvXcs2RJBS" resolve="roles" />
           <node concept="2iRkQZ" id="2QvXcs2RJC9" role="2czzBx" />
           <node concept="lj46D" id="2QvXcs2RJTQ" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -99,7 +99,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F2HdR" id="4cqtSm2CTCn" role="3EZMnx">
-          <ref role="1NtTu8" to="94to:4cqtSm2CTC9" />
+          <ref role="1NtTu8" to="94to:4cqtSm2CTC9" resolve="permissions" />
           <node concept="2iRkQZ" id="4cqtSm2CTCq" role="2czzBx" />
           <node concept="lj46D" id="4cqtSm2CTCp" role="3F10Kt">
             <property role="VOm3f" value="true" />

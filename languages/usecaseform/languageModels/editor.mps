@@ -2,16 +2,16 @@
 <model ref="r:5410a166-dc93-4ff7-ba8e-f775600692fa(usecaseform.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="ynoo" ref="r:9f7229f8-2b29-4871-bcfb-f094367d6e75(usecaseform.structure)" />
     <import index="tyly" ref="r:ea55c8ba-f72e-4e24-b218-ab8f1262db67(seleniumtest.structure)" />
-    <import index="dbrf" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
-    <import index="k7g3" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -274,7 +274,7 @@
             <property role="3F0ifm" value="Actor:" />
           </node>
           <node concept="3F1sOY" id="2QvXcs2RK15" role="3EZMnx">
-            <ref role="1NtTu8" to="ynoo:2QvXcs2RK13" />
+            <ref role="1NtTu8" to="ynoo:2QvXcs2RK13" resolve="actor" />
           </node>
           <node concept="2iRfu4" id="2SJ9Ym7AMj0" role="2iSdaV" />
         </node>
@@ -289,7 +289,7 @@
             <node concept="2iRkQZ" id="3qsKpB$_8qW" role="2iSdaV" />
             <node concept="3F2HdR" id="26zJhEQJhJy" role="3EZMnx">
               <property role="S$F3r" value="true" />
-              <ref role="1NtTu8" to="tyly:26zJhEQzSNv" />
+              <ref role="1NtTu8" to="tyly:26zJhEQzSNv" resolve="testScenarios" />
               <node concept="2iRkQZ" id="26zJhEQJhJC" role="2czzBx" />
               <node concept="1HlG4h" id="3qsKpB$zZ4E" role="3EmGlc">
                 <node concept="1HfYo3" id="3qsKpB$zZ4G" role="1HlULh">
@@ -304,11 +304,11 @@
                             <node concept="2OqwBi" id="3qsKpB$zZvV" role="2Oq$k0">
                               <node concept="pncrf" id="3qsKpB$zZiG" role="2Oq$k0" />
                               <node concept="3Tsc0h" id="3qsKpB$$1N_" role="2OqNvi">
-                                <ref role="3TtcxE" to="tyly:26zJhEQzSNv" />
+                                <ref role="3TtcxE" to="tyly:26zJhEQzSNv" resolve="testScenarios" />
                               </node>
                             </node>
                             <node concept="liA8E" id="3qsKpB$$x13" role="2OqNvi">
-                              <ref role="37wK5l" to="k7g3:~List.size():int" resolve="size" />
+                              <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
                             </node>
                           </node>
                         </node>
@@ -483,7 +483,7 @@
         </node>
         <node concept="2iRfu4" id="2SJ9Ym7AXiG" role="2iSdaV" />
         <node concept="3F1sOY" id="2SJ9Ym7AXiJ" role="3EZMnx">
-          <ref role="1NtTu8" to="ynoo:2SJ9Ym7AXiB" />
+          <ref role="1NtTu8" to="ynoo:2SJ9Ym7AXiB" resolve="description" />
         </node>
       </node>
       <node concept="3EZMnI" id="6gqi4cBwWam" role="3EZMnx">
@@ -533,7 +533,7 @@
           <property role="3F0ifm" value="Verbindlichkeit" />
         </node>
         <node concept="1iCGBv" id="h8hnNNRSgI" role="3EZMnx">
-          <ref role="1NtTu8" to="ynoo:2SJ9Ym7AXiB" />
+          <ref role="1NtTu8" to="ynoo:2SJ9Ym7AXiB" resolve="description" />
           <node concept="1sVBvm" id="h8hnNNRSgJ" role="1sWHZn">
             <node concept="3F0A7n" id="h8hnNNRSgL" role="2wV5jI">
               <property role="1Intyy" value="true" />
@@ -599,7 +599,7 @@
           <property role="3F0ifm" value="Andere Modellelemente:" />
         </node>
         <node concept="3F2HdR" id="6gqi4cBx8tE" role="3EZMnx">
-          <ref role="1NtTu8" to="ynoo:6gqi4cBx8tl" />
+          <ref role="1NtTu8" to="ynoo:6gqi4cBx8tl" resolve="pointerToOtherModelElements" />
           <node concept="2iRkQZ" id="6gqi4cBx8tG" role="2czzBx" />
         </node>
         <node concept="2iRfu4" id="6gqi4cBx8tB" role="2iSdaV" />
@@ -724,7 +724,7 @@
               <node concept="3fqX7Q" id="6gqi4cBxa2L" role="3clFbG">
                 <node concept="2OqwBi" id="6gqi4cBxq$W" role="3fr31v">
                   <node concept="liA8E" id="6gqi4cBxq_0" role="2OqNvi">
-                    <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                     <node concept="2OqwBi" id="6gqi4cBxa2O" role="37wK5m">
                       <node concept="pncrf" id="6gqi4cBxa2N" role="2Oq$k0" />
                       <node concept="3TrcHB" id="6gqi4cBxoQt" role="2OqNvi">
@@ -776,7 +776,7 @@
   <node concept="24kQdi" id="6gqi4cBx8tq">
     <ref role="1XX52x" to="ynoo:6gqi4cBx8to" resolve="ModelElementReference" />
     <node concept="1iCGBv" id="6gqi4cBx8tv" role="2wV5jI">
-      <ref role="1NtTu8" to="ynoo:6gqi4cBx8tp" />
+      <ref role="1NtTu8" to="ynoo:6gqi4cBx8tp" resolve="modelElement" />
       <node concept="1sVBvm" id="6gqi4cBx8tw" role="1sWHZn">
         <node concept="3F0A7n" id="6gqi4cBx8tz" role="2wV5jI">
           <property role="1Intyy" value="true" />
@@ -788,7 +788,7 @@
   <node concept="24kQdi" id="2QvXcs2RK0X">
     <ref role="1XX52x" to="ynoo:2QvXcs2RK0t" resolve="RoleReference" />
     <node concept="1iCGBv" id="2QvXcs2RK0Z" role="2wV5jI">
-      <ref role="1NtTu8" to="ynoo:2QvXcs2RK0W" />
+      <ref role="1NtTu8" to="ynoo:2QvXcs2RK0W" resolve="role" />
       <node concept="1sVBvm" id="2QvXcs2RK10" role="1sWHZn">
         <node concept="3F0A7n" id="2QvXcs2RK12" role="2wV5jI">
           <property role="1Intyy" value="true" />
@@ -810,7 +810,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="5MeeiIud2yV" role="3EZMnx">
-        <ref role="1NtTu8" to="ynoo:5MeeiIud2yA" />
+        <ref role="1NtTu8" to="ynoo:5MeeiIud2yA" resolve="useCases" />
         <node concept="l2Vlx" id="5MeeiIud2yW" role="2czzBx" />
         <node concept="ljvvj" id="5MeeiIud2yX" role="3F10Kt">
           <property role="VOm3f" value="true" />

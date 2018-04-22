@@ -3,13 +3,13 @@
   <persistence version="9" />
   <languages>
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="-1" />
-    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="-1" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="3" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="dby9" ref="r:c9eb1d88-4e3a-40e9-8a39-ddcec7080a6e(gherkin.structure)" />
-    <import index="srng" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(MPS.Editor/jetbrains.mps.openapi.editor@java_stub)" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="iuxj" ref="r:64db3a92-5968-4a73-b456-34504a2d97a6(jetbrains.mps.core.xml.structure)" />
     <import index="ytqb" ref="r:f24fb939-6892-4a5f-ba62-a9ac6c9199c9(MyCatwobExtensions.structure)" implicit="true" />
   </imports>
@@ -84,7 +84,7 @@
     </language>
   </registry>
   <node concept="2S6QgY" id="6JmlCTo6qny">
-    <property role="TrG5h" value="Add Link to XML File" />
+    <property role="TrG5h" value="AddLinktoXMLFile" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="dby9:3m83uObJOC3" resolve="Scenario" />
     <node concept="2S6ZIM" id="6JmlCTo6qnz" role="2ZfVej">
@@ -117,7 +117,7 @@
           <node concept="2OqwBi" id="6JmlCTo6wly" role="3clFbG">
             <node concept="1XNTG" id="6JmlCTo6wj7" role="2Oq$k0" />
             <node concept="liA8E" id="6JmlCTo6xrk" role="2OqNvi">
-              <ref role="37wK5l" to="srng:~EditorContext.select(org.jetbrains.mps.openapi.model.SNode):void" resolve="select" />
+              <ref role="37wK5l" to="cj4x:~EditorContext.select(org.jetbrains.mps.openapi.model.SNode):void" resolve="select" />
               <node concept="2OqwBi" id="6JmlCTo6xs8" role="37wK5m">
                 <node concept="2OqwBi" id="6JmlCTo6xrE" role="2Oq$k0">
                   <node concept="2Sf5sV" id="6JmlCTo6xrl" role="2Oq$k0" />
@@ -128,7 +128,7 @@
                   </node>
                 </node>
                 <node concept="3TrEf2" id="2QYIrmwtMzm" role="2OqNvi">
-                  <ref role="3Tt5mk" to="ytqb:6JmlCTo6pVm" />
+                  <ref role="3Tt5mk" to="ytqb:6JmlCTo6pVm" resolve="xmlFile" />
                 </node>
               </node>
             </node>
@@ -155,7 +155,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="6JmlCTo6yd$">
-    <property role="TrG5h" value="Add Link to Scenario" />
+    <property role="TrG5h" value="AddLinktoScenario" />
     <ref role="2ZfgGC" to="iuxj:5M4a$b5iL2M" resolve="XmlElement" />
     <node concept="2S6ZIM" id="6JmlCTo6yd_" role="2ZfVej">
       <node concept="3clFbS" id="6JmlCTo6ydA" role="2VODD2">
@@ -204,7 +204,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="6JmlCTo6$lQ">
-    <property role="TrG5h" value="Add Link to Scenario on attribute" />
+    <property role="TrG5h" value="AddLinktoScenarioonattribute" />
     <ref role="2ZfgGC" to="iuxj:5M4a$b5iSRN" resolve="XmlAttribute" />
     <node concept="2S6ZIM" id="6JmlCTo6$lR" role="2ZfVej">
       <node concept="3clFbS" id="6JmlCTo6$lS" role="2VODD2">

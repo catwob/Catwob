@@ -9,7 +9,7 @@
   <imports>
     <import index="dby9" ref="r:c9eb1d88-4e3a-40e9-8a39-ddcec7080a6e(gherkin.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -109,9 +109,12 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
+        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
+      </concept>
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
-        <reference id="1171323947160" name="concept" index="2SmgA8" />
+        <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
@@ -181,7 +184,9 @@
                   <node concept="I4A8Y" id="1t9RnT4VU73" role="2OqNvi" />
                 </node>
                 <node concept="2SmgA7" id="1t9RnT4VUKp" role="2OqNvi">
-                  <ref role="2SmgA8" to="dby9:7206T8e3cUO" resolve="IFeature" />
+                  <node concept="chp4Y" id="5brs3fAQbhS" role="1dBWTz">
+                    <ref role="cht4Q" to="dby9:7206T8e3cUO" resolve="IFeature" />
+                  </node>
                 </node>
               </node>
               <node concept="3zZkjj" id="1t9RnT4VZKo" role="2OqNvi">
@@ -190,7 +195,7 @@
                     <node concept="3clFbF" id="1t9RnT4VZTG" role="3cqZAp">
                       <node concept="2OqwBi" id="1t9RnT4W1V_" role="3clFbG">
                         <node concept="liA8E" id="1t9RnT4W4_L" role="2OqNvi">
-                          <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                           <node concept="2OqwBi" id="1t9RnT4W00X" role="37wK5m">
                             <node concept="37vLTw" id="1t9RnT4VZTF" role="2Oq$k0">
                               <ref role="3cqZAo" node="1t9RnT4VZKs" resolve="it" />

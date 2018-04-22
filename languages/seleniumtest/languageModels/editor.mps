@@ -2,7 +2,7 @@
 <model ref="r:63acd311-9be2-4926-a7e5-2673eeeedd11(seleniumtest.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -157,6 +157,10 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
+      <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
+        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
+        <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+      </concept>
       <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
@@ -164,10 +168,7 @@
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
-      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
-        <reference id="1140138128738" name="concept" index="1PxNhF" />
-        <child id="1140138123956" name="leftExpression" index="1PxMeX" />
-      </concept>
+      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
@@ -243,7 +244,7 @@
             <property role="VOm3f" value="false" />
           </node>
           <node concept="3F2HdR" id="26zJhEQ$K4_" role="3EZMnx">
-            <ref role="1NtTu8" to="tyly:26zJhEQzSNv" />
+            <ref role="1NtTu8" to="tyly:26zJhEQzSNv" resolve="testScenarios" />
             <node concept="2iRkQZ" id="26zJhEQ$K4A" role="2czzBx" />
           </node>
           <node concept="2iRkQZ" id="26zJhEQ$K4u" role="2iSdaV" />
@@ -304,7 +305,7 @@
                 <node concept="2OqwBi" id="1t9RnT4G1kz" role="2Oq$k0">
                   <node concept="pncrf" id="1t9RnT4G1dj" role="2Oq$k0" />
                   <node concept="3TrEf2" id="1t9RnT4G2DK" role="2OqNvi">
-                    <ref role="3Tt5mk" to="tyly:1t9RnT4ETaV" />
+                    <ref role="3Tt5mk" to="tyly:1t9RnT4ETaV" resolve="xpath" />
                   </node>
                 </node>
                 <node concept="3w_OXm" id="1t9RnT4G4_3" role="2OqNvi" />
@@ -316,7 +317,7 @@
       <node concept="l2Vlx" id="2RGvzciV4m_" role="2iSdaV" />
     </node>
     <node concept="3F1sOY" id="1t9RnT4FBpC" role="6VMZX">
-      <ref role="1NtTu8" to="tyly:1t9RnT4ETaV" />
+      <ref role="1NtTu8" to="tyly:1t9RnT4ETaV" resolve="xpath" />
     </node>
   </node>
   <node concept="24kQdi" id="2RGvzciVa81">
@@ -333,7 +334,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F2HdR" id="2RGvzciVa8d" role="3EZMnx">
-          <ref role="1NtTu8" to="tyly:2RGvzciVa80" />
+          <ref role="1NtTu8" to="tyly:2RGvzciVa80" resolve="elements" />
           <node concept="2EHx9g" id="2RGvzciVa8f" role="2czzBx" />
           <node concept="lj46D" id="2RGvzciVa8g" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -401,10 +402,10 @@
       <node concept="3F1sOY" id="2RGvzciVcrj" role="3EZMnx">
         <property role="39s7Ar" value="true" />
         <property role="1$x2rV" value="Create an action" />
-        <ref role="1NtTu8" to="tyly:2RGvzciVcrb" />
+        <ref role="1NtTu8" to="tyly:2RGvzciVcrb" resolve="action" />
       </node>
       <node concept="3F2HdR" id="2RGvzciVcrl" role="3EZMnx">
-        <ref role="1NtTu8" to="tyly:2RGvzciVcrc" />
+        <ref role="1NtTu8" to="tyly:2RGvzciVcrc" resolve="expectedResults" />
         <node concept="2EHx9g" id="2RGvzciVcrn" role="2czzBx" />
         <node concept="3F0ifn" id="2RGvzciVcro" role="2czzBI">
           <property role="3F0ifm" value="&lt;&lt;Add an expected result&gt;&gt;" />
@@ -570,7 +571,7 @@
                         <node concept="2OqwBi" id="58z6k1Vk00x" role="2Oq$k0">
                           <node concept="pncrf" id="58z6k1VjZV7" role="2Oq$k0" />
                           <node concept="3Tsc0h" id="58z6k1Vk0T9" role="2OqNvi">
-                            <ref role="3TtcxE" to="tyly:26zJhEQz$sN" />
+                            <ref role="3TtcxE" to="tyly:26zJhEQz$sN" resolve="testSteps" />
                           </node>
                         </node>
                         <node concept="34oBXx" id="58z6k1Vk4p5" role="2OqNvi" />
@@ -582,7 +583,7 @@
             </node>
             <node concept="2iRfu4" id="58z6k1VjZi0" role="2iSdaV" />
             <node concept="3F2HdR" id="26zJhEQCive" role="3EZMnx">
-              <ref role="1NtTu8" to="tyly:26zJhEQz$sN" />
+              <ref role="1NtTu8" to="tyly:26zJhEQz$sN" resolve="testSteps" />
               <ref role="34QXea" node="3qsKpB$wLut" resolve="SeleniumTestKeyMap" />
               <node concept="2EHx9g" id="26zJhEQCVdp" role="2czzBx" />
               <node concept="3F0ifn" id="6GBbUjONR10" role="2czzBI">
@@ -598,7 +599,7 @@
                       <node concept="2OqwBi" id="4XeN$UO_sPE" role="2Oq$k0">
                         <node concept="pncrf" id="4XeN$UO_sGY" role="2Oq$k0" />
                         <node concept="3TrEf2" id="4XeN$UO_upW" role="2OqNvi">
-                          <ref role="3Tt5mk" to="tyly:4XeN$UO$Ajh" />
+                          <ref role="3Tt5mk" to="tyly:4XeN$UO$Ajh" resolve="testStepList" />
                         </node>
                       </node>
                       <node concept="3w_OXm" id="4XeN$UO_wfg" role="2OqNvi" />
@@ -612,7 +613,7 @@
             <property role="VOm3f" value="true" />
           </node>
           <node concept="3F1sOY" id="4XeN$UO_sxv" role="3EZMnx">
-            <ref role="1NtTu8" to="tyly:4XeN$UO$Ajh" />
+            <ref role="1NtTu8" to="tyly:4XeN$UO$Ajh" resolve="testStepList" />
           </node>
           <node concept="3F0ifn" id="6GBbUjONRrT" role="3EZMnx">
             <property role="3F0ifm" value="&lt;&lt;Hit enter here for new Scenario&gt;&gt;" />
@@ -673,7 +674,7 @@
       </node>
       <node concept="3F1sOY" id="3JR6rnByWCg" role="3EZMnx">
         <property role="1$x2rV" value="choose a text option" />
-        <ref role="1NtTu8" to="tyly:3JR6rnByWiG" />
+        <ref role="1NtTu8" to="tyly:3JR6rnByWiG" resolve="visibleText" />
       </node>
     </node>
   </node>
@@ -687,7 +688,7 @@
         <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
       </node>
       <node concept="3F1sOY" id="3JR6rnB$tV$" role="3EZMnx">
-        <ref role="1NtTu8" to="tyly:3JR6rnB$tVu" />
+        <ref role="1NtTu8" to="tyly:3JR6rnB$tVu" resolve="id" />
       </node>
     </node>
   </node>
@@ -743,7 +744,7 @@
       <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
     </node>
     <node concept="3F1sOY" id="1t9RnT4_$lY" role="6VMZX">
-      <ref role="1NtTu8" to="tyly:1t9RnT4_$l8" />
+      <ref role="1NtTu8" to="tyly:1t9RnT4_$l8" resolve="method" />
     </node>
   </node>
   <node concept="24kQdi" id="1t9RnT4ET0R">
@@ -761,7 +762,7 @@
   <node concept="24kQdi" id="1t9RnT4ETcm">
     <ref role="1XX52x" to="tyly:1t9RnT4ESZm" resolve="IXPathProvider" />
     <node concept="3F1sOY" id="1t9RnT4ETco" role="2wV5jI">
-      <ref role="1NtTu8" to="tyly:1t9RnT4ETaV" />
+      <ref role="1NtTu8" to="tyly:1t9RnT4ETaV" resolve="xpath" />
     </node>
   </node>
   <node concept="24kQdi" id="3JR6rnByWCK">
@@ -795,7 +796,7 @@
     <ref role="1XX52x" to="tyly:4XeN$UO$c2M" resolve="TestStepList" />
     <node concept="3EZMnI" id="4XeN$UO$vQd" role="2wV5jI">
       <node concept="3F2HdR" id="4XeN$UO$vQk" role="3EZMnx">
-        <ref role="1NtTu8" to="tyly:4XeN$UO$cWc" />
+        <ref role="1NtTu8" to="tyly:4XeN$UO$cWc" resolve="testSteps" />
         <node concept="2EHx9g" id="4XeN$UOBSpB" role="2czzBx" />
       </node>
       <node concept="2iRkQZ" id="4XeN$UO$vQg" role="2iSdaV" />
@@ -816,7 +817,7 @@
       <node concept="3EZMnI" id="4XeN$UOCQTC" role="3EZMnx">
         <node concept="l2Vlx" id="4XeN$UOCQTD" role="2iSdaV" />
         <node concept="3F1sOY" id="4XeN$UOCQTy" role="3EZMnx">
-          <ref role="1NtTu8" to="tyly:4XeN$UOCQP3" />
+          <ref role="1NtTu8" to="tyly:4XeN$UOCQP3" resolve="testStepList" />
           <node concept="lj46D" id="4XeN$UOCQTM" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -829,7 +830,7 @@
     <property role="3GE5qa" value="TestStep" />
     <ref role="1XX52x" to="tyly:7eAMc46Zqib" resolve="TestStepMacroReference" />
     <node concept="1iCGBv" id="7eAMc46ZrDx" role="2wV5jI">
-      <ref role="1NtTu8" to="tyly:7eAMc46ZqAS" />
+      <ref role="1NtTu8" to="tyly:7eAMc46ZqAS" resolve="macro" />
       <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
       <node concept="1sVBvm" id="7eAMc46ZrDy" role="1sWHZn">
         <node concept="3F0A7n" id="7eAMc46ZrDB" role="2wV5jI">
@@ -858,8 +859,8 @@
               <node concept="2OqwBi" id="7eAMc4796XH" role="2Oq$k0">
                 <node concept="2OqwBi" id="3qsKpB$wOcQ" role="2Oq$k0">
                   <node concept="1PxgMI" id="3qsKpB$yIRh" role="2Oq$k0">
-                    <ref role="1PxNhF" to="tyly:26zJhEQzy4q" resolve="TestScenario" />
-                    <node concept="2OqwBi" id="3qsKpB$yHDm" role="1PxMeX">
+                    <ref role="1m5ApE" to="tyly:26zJhEQzy4q" resolve="TestScenario" />
+                    <node concept="2OqwBi" id="3qsKpB$yHDm" role="1m5AlR">
                       <node concept="0GJ7k" id="3qsKpB$wO7k" role="2Oq$k0" />
                       <node concept="2Xjw5R" id="3qsKpB$yIBx" role="2OqNvi">
                         <node concept="1xMEDy" id="3qsKpB$yIBz" role="1xVPHs">
@@ -872,11 +873,11 @@
                     </node>
                   </node>
                   <node concept="3TrEf2" id="7eAMc4796zj" role="2OqNvi">
-                    <ref role="3Tt5mk" to="tyly:4XeN$UO$Ajh" />
+                    <ref role="3Tt5mk" to="tyly:4XeN$UO$Ajh" resolve="testStepList" />
                   </node>
                 </node>
                 <node concept="3Tsc0h" id="7eAMc4797il" role="2OqNvi">
-                  <ref role="3TtcxE" to="tyly:4XeN$UO$cWc" />
+                  <ref role="3TtcxE" to="tyly:4XeN$UO$cWc" resolve="testSteps" />
                 </node>
               </node>
               <node concept="WFELt" id="3qsKpB$xeTX" role="2OqNvi" />
@@ -905,7 +906,7 @@
         <node concept="3EZMnI" id="e5WlLSAGXD" role="3EZMnx">
           <node concept="2iRkQZ" id="e5WlLSAGXE" role="2iSdaV" />
           <node concept="3F2HdR" id="e5WlLSAGXN" role="3EZMnx">
-            <ref role="1NtTu8" to="tyly:e5WlLSAGXd" />
+            <ref role="1NtTu8" to="tyly:e5WlLSAGXd" resolve="elements" />
             <node concept="2iRkQZ" id="e5WlLSAGXQ" role="2czzBx" />
           </node>
           <node concept="lj46D" id="e5WlLSAGXL" role="3F10Kt">
@@ -972,7 +973,7 @@
         <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
       </node>
       <node concept="1iCGBv" id="e5WlLSCMDz" role="3EZMnx">
-        <ref role="1NtTu8" to="tyly:e5WlLSCMCW" />
+        <ref role="1NtTu8" to="tyly:e5WlLSCMCW" resolve="pageObjectElement" />
         <node concept="1sVBvm" id="e5WlLSCMD_" role="1sWHZn">
           <node concept="3F0A7n" id="e5WlLSCMDH" role="2wV5jI">
             <property role="1Intyy" value="true" />

@@ -5,30 +5,29 @@
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
     <use id="b06f6336-6262-4aa6-9077-6428311586c7" name="seleniumtest" version="-1" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="-1" />
-    <use id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext" version="-1" />
     <use id="cc4a6f18-bb5e-4187-ae12-d8dc9eac45ec" name="acceptanceTest" version="-1" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
     <use id="ad483618-38b5-40d4-a3b4-315b97da81b0" name="usecaseform" version="-1" />
     <use id="9d5c9b81-eae4-4af1-9b07-751abdfe4484" name="permissions" version="-1" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
-    <generationPart ref="b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)" />
+    <engage id="b06f6336-6262-4aa6-9077-6428311586c7" name="seleniumtest" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="ynoo" ref="r:9f7229f8-2b29-4871-bcfb-f094367d6e75(usecaseform.structure)" />
     <import index="sw2b" ref="r:37bb75eb-7241-486e-bae3-94317b6977e7(seleniumtest.generator.template.main@generator)" />
-    <import index="k5gm" ref="f:java_stub#b06f6336-6262-4aa6-9077-6428311586c7#org.openqa.selenium(seleniumtest/org.openqa.selenium@java_stub)" />
-    <import index="k781" ref="f:java_stub#b06f6336-6262-4aa6-9077-6428311586c7#org.openqa.selenium.firefox(seleniumtest/org.openqa.selenium.firefox@java_stub)" />
+    <import index="t9m0" ref="b06f6336-6262-4aa6-9077-6428311586c7/java:org.openqa.selenium(seleniumtest/)" />
+    <import index="1cyb" ref="b06f6336-6262-4aa6-9077-6428311586c7/java:org.openqa.selenium.firefox(seleniumtest/)" />
     <import index="tyly" ref="r:ea55c8ba-f72e-4e24-b218-ab8f1262db67(seleniumtest.structure)" />
     <import index="tpe5" ref="r:00000000-0000-4000-0000-011c895902d1(jetbrains.mps.baseLanguage.unitTest.behavior)" />
-    <import index="u67u" ref="f:java_stub#83f155ff-422c-4b5a-a2f2-b459302dd215#org.junit.runner(jetbrains.mps.baseLanguage.unitTest.libs/org.junit.runner@java_stub)" />
-    <import index="aj7d" ref="f:java_stub#83f155ff-422c-4b5a-a2f2-b459302dd215#org.junit.runners(jetbrains.mps.baseLanguage.unitTest.libs/org.junit.runners@java_stub)" />
-    <import index="qjxg" ref="f:java_stub#83f155ff-422c-4b5a-a2f2-b459302dd215#org.junit(jetbrains.mps.baseLanguage.unitTest.libs/org.junit@java_stub)" />
+    <import index="cvlm" ref="83f155ff-422c-4b5a-a2f2-b459302dd215/java:org.junit.runner(jetbrains.mps.baseLanguage.unitTest.libs/)" />
+    <import index="bbnd" ref="83f155ff-422c-4b5a-a2f2-b459302dd215/java:org.junit.runners(jetbrains.mps.baseLanguage.unitTest.libs/)" />
+    <import index="rjhg" ref="83f155ff-422c-4b5a-a2f2-b459302dd215/java:org.junit(jetbrains.mps.baseLanguage.unitTest.libs/)" />
     <import index="j02o" ref="r:48e11a50-c2e4-498e-afc2-fefe986a3d00(seleniumtest.util)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -229,7 +228,7 @@
             <node concept="3clFbF" id="26zJhEQKJMq" role="3cqZAp">
               <node concept="2OqwBi" id="26zJhEQKJMl" role="3clFbG">
                 <node concept="3Tsc0h" id="26zJhEQKJMo" role="2OqNvi">
-                  <ref role="3TtcxE" to="tyly:26zJhEQzSNv" />
+                  <ref role="3TtcxE" to="tyly:26zJhEQzSNv" resolve="testScenarios" />
                 </node>
                 <node concept="30H73N" id="26zJhEQKJMp" role="2Oq$k0" />
               </node>
@@ -271,7 +270,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="5HK4j7SAiil" role="2OqNvi">
-                <ref role="37wK5l" to="e2lb:~String.substring(int,int):java.lang.String" resolve="substring" />
+                <ref role="37wK5l" to="wyt6:~String.substring(int,int):java.lang.String" resolve="substring" />
                 <node concept="3cmrfG" id="5HK4j7SAiwO" role="37wK5m">
                   <property role="3cmrfH" value="0" />
                 </node>
@@ -287,7 +286,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="5HK4j7SAlaH" role="2OqNvi">
-                      <ref role="37wK5l" to="e2lb:~String.length():int" resolve="length" />
+                      <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
                     </node>
                   </node>
                 </node>
@@ -311,7 +310,7 @@
       <property role="TrG5h" value="driver" />
       <property role="3TUv4t" value="false" />
       <node concept="3uibUv" id="4cqtSm2CAIf" role="1tU5fm">
-        <ref role="3uigEE" to="k5gm:~WebDriver" resolve="WebDriver" />
+        <ref role="3uigEE" to="t9m0:~WebDriver" resolve="WebDriver" />
       </node>
       <node concept="3Tm1VV" id="1t9RnT4GF8M" role="1B3o_S" />
     </node>
@@ -331,7 +330,7 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="1t9RnT4GIEp" role="2AJF6D">
-        <ref role="2AI5Lk" to="qjxg:~Rule" resolve="Rule" />
+        <ref role="2AI5Lk" to="rjhg:~Rule" resolve="Rule" />
       </node>
     </node>
     <node concept="2tJIrI" id="1t9RnT4GFA5" role="jymVt" />
@@ -348,8 +347,8 @@
       <node concept="3clFbS" id="26zJhEQHRqp" role="3clF47">
         <node concept="3clFbF" id="2dkWLsnigF$" role="3cqZAp">
           <node concept="2YIFZM" id="2dkWLsnihtY" role="3clFbG">
-            <ref role="37wK5l" to="e2lb:~System.setProperty(java.lang.String,java.lang.String):java.lang.String" resolve="setProperty" />
-            <ref role="1Pybhc" to="e2lb:~System" resolve="System" />
+            <ref role="37wK5l" to="wyt6:~System.setProperty(java.lang.String,java.lang.String):java.lang.String" resolve="setProperty" />
+            <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
             <node concept="Xl_RD" id="2dkWLsnihv5" role="37wK5m">
               <property role="Xl_RC" value="webdriver.gecko.driver" />
             </node>
@@ -362,7 +361,7 @@
           <node concept="37vLTI" id="4cqtSm2CAIA" role="3clFbG">
             <node concept="2ShNRf" id="4cqtSm2CAID" role="37vLTx">
               <node concept="1pGfFk" id="4cqtSm2CATm" role="2ShVmc">
-                <ref role="37wK5l" to="k781:~FirefoxDriver.&lt;init&gt;()" resolve="FirefoxDriver" />
+                <ref role="37wK5l" to="1cyb:~FirefoxDriver.&lt;init&gt;()" resolve="FirefoxDriver" />
               </node>
             </node>
             <node concept="37vLTw" id="7K0tVXpLVD1" role="37vLTJ">
@@ -383,8 +382,8 @@
         </node>
         <node concept="3clFbF" id="4cqtSm2CBBm" role="3cqZAp">
           <node concept="2YIFZM" id="4cqtSm2CBQc" role="3clFbG">
-            <ref role="1Pybhc" to="e2lb:~System" resolve="System" />
-            <ref role="37wK5l" to="e2lb:~System.setProperty(java.lang.String,java.lang.String):java.lang.String" resolve="setProperty" />
+            <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+            <ref role="37wK5l" to="wyt6:~System.setProperty(java.lang.String,java.lang.String):java.lang.String" resolve="setProperty" />
             <node concept="Xl_RD" id="4cqtSm2CBQd" role="37wK5m">
               <property role="Xl_RC" value="org.mortbay.http.HttpRequest.maxFormContentSize" />
             </node>
@@ -397,7 +396,7 @@
       <node concept="3Tm1VV" id="26zJhEQHQ$n" role="1B3o_S" />
       <node concept="3cqZAl" id="26zJhEQHRqj" role="3clF45" />
       <node concept="2AHcQZ" id="26zJhEQHVC5" role="2AJF6D">
-        <ref role="2AI5Lk" to="qjxg:~BeforeClass" resolve="BeforeClass" />
+        <ref role="2AI5Lk" to="rjhg:~BeforeClass" resolve="BeforeClass" />
       </node>
     </node>
     <node concept="2tJIrI" id="7K0tVXpLYlo" role="jymVt" />
@@ -407,10 +406,10 @@
       <node concept="3Tm1VV" id="4cqtSm2CDRj" role="1B3o_S" />
       <node concept="3clFbS" id="4cqtSm2CDRk" role="3clF47" />
       <node concept="3uibUv" id="4cqtSm2CDRX" role="Sfmx6">
-        <ref role="3uigEE" to="e2lb:~InterruptedException" resolve="InterruptedException" />
+        <ref role="3uigEE" to="wyt6:~InterruptedException" resolve="InterruptedException" />
       </node>
       <node concept="2AHcQZ" id="26zJhEQFwi9" role="2AJF6D">
-        <ref role="2AI5Lk" to="qjxg:~Test" resolve="Test" />
+        <ref role="2AI5Lk" to="rjhg:~Test" resolve="Test" />
       </node>
       <node concept="2b32R4" id="26zJhEQFxla" role="lGtFl">
         <node concept="3JmXsc" id="26zJhEQFxld" role="2P8S$">
@@ -428,7 +427,7 @@
                   <node concept="30H73N" id="7K0tVXpLZ9N" role="2Oq$k0" />
                 </node>
                 <node concept="13MTOL" id="7K0tVXpMl6q" role="2OqNvi">
-                  <ref role="13MTZf" to="tyly:26zJhEQzSNv" />
+                  <ref role="13MTZf" to="tyly:26zJhEQzSNv" resolve="testScenarios" />
                 </node>
               </node>
             </node>

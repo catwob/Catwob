@@ -2,11 +2,12 @@
 <model ref="r:2057f3ad-19f6-44ca-bbd9-613e9b6a31fd(gherkin_with_seleniumtest.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="-1" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
     <use id="50acd4f7-7413-4754-889f-75b097780731" name="gherkin" version="-1" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
+    <use id="982eb8df-2c96-4bd7-9963-11712ea622e5" name="jetbrains.mps.lang.resources" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -17,6 +18,7 @@
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
@@ -31,6 +33,7 @@
         <property id="1071599776563" name="role" index="20kJfa" />
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
+        <property id="241647608299431140" name="linkId" index="IQ2ns" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -43,11 +46,13 @@
   <node concept="1TIwiD" id="30ZjTyY1$55">
     <property role="TrG5h" value="TestStepActionTemplateFragment" />
     <property role="34LRSv" value="selenium action" />
+    <property role="EcuMT" value="3476584954795016517" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="gi$uDo7Nbg" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="testStepAction" />
       <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="293457361419317968" />
       <ref role="20lvS9" to="tyly:4cqtSm2CyXM" resolve="TestStepAction" />
     </node>
     <node concept="PrWs8" id="30ZjTyY1Ffr" role="PzmwI">
@@ -57,11 +62,13 @@
   <node concept="1TIwiD" id="gi$uDo7ORI">
     <property role="TrG5h" value="ExpectedResultTemplateFragment" />
     <property role="34LRSv" value="selenium assert" />
+    <property role="EcuMT" value="293457361419324910" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="gi$uDo7ORL" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="expectedResult" />
       <property role="20lbJX" value="1" />
+      <property role="IQ2ns" value="293457361419324913" />
       <ref role="20lvS9" to="tyly:2RGvzciVcqT" resolve="ExpectedResult" />
     </node>
     <node concept="PrWs8" id="gi$uDo7ORJ" role="PzmwI">
@@ -71,11 +78,13 @@
   <node concept="1TIwiD" id="3JR6rnBzVX7">
     <property role="TrG5h" value="PlaceholderTemplateFragmentTextProvider" />
     <property role="34LRSv" value="placeholder" />
+    <property role="EcuMT" value="4320950636550012743" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3JR6rnBzVY3" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20lbJX" value="1" />
       <property role="20kJfa" value="placeholderFragment" />
+      <property role="IQ2ns" value="4320950636550012803" />
       <ref role="20lvS9" to="dby9:78EPK_h7hUo" resolve="ScenarioOutlineTemplatePlaceholderFragment" />
     </node>
     <node concept="PrWs8" id="3JR6rnBzVY1" role="PzmwI">

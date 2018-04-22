@@ -2,7 +2,7 @@
 <model ref="r:6065f3c3-35c2-4aa3-97fd-d7cd6c88649d(gherkin_with_seleniumtest.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -26,19 +26,19 @@
   <node concept="24kQdi" id="gi$uDo7MGi">
     <ref role="1XX52x" to="gejo:30ZjTyY1$55" resolve="TestStepActionTemplateFragment" />
     <node concept="3F1sOY" id="gi$uDo7Ng7" role="2wV5jI">
-      <ref role="1NtTu8" to="gejo:gi$uDo7Nbg" />
+      <ref role="1NtTu8" to="gejo:gi$uDo7Nbg" resolve="testStepAction" />
     </node>
   </node>
   <node concept="24kQdi" id="gi$uDo7ORS">
     <ref role="1XX52x" to="gejo:gi$uDo7ORI" resolve="ExpectedResultTemplateFragment" />
     <node concept="3F1sOY" id="gi$uDo7OSH" role="2wV5jI">
-      <ref role="1NtTu8" to="gejo:gi$uDo7ORL" />
+      <ref role="1NtTu8" to="gejo:gi$uDo7ORL" resolve="expectedResult" />
     </node>
   </node>
   <node concept="24kQdi" id="3JR6rnBzVYs">
     <ref role="1XX52x" to="gejo:3JR6rnBzVX7" resolve="PlaceholderTemplateFragmentTextProvider" />
     <node concept="3F1sOY" id="3JR6rnBzW2f" role="2wV5jI">
-      <ref role="1NtTu8" to="gejo:3JR6rnBzVY3" />
+      <ref role="1NtTu8" to="gejo:3JR6rnBzVY3" resolve="placeholderFragment" />
     </node>
   </node>
 </model>
