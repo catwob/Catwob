@@ -2,7 +2,7 @@
 <model ref="r:82bacfc1-cabc-4efa-830e-23a4f86565ca(gherkin.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
     <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
@@ -132,8 +132,8 @@
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1173122760281" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorsOperation" flags="nn" index="z$bX8" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
-        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
@@ -492,7 +492,6 @@
         </node>
         <node concept="3clFbF" id="3JR6rnBJOJ0" role="3cqZAp">
           <node concept="1PxgMI" id="3JR6rnBJXuv" role="3clFbG">
-            <ref role="1m5ApE" to="tpe3:hGB2rPm" resolve="ITestCase" />
             <node concept="2OqwBi" id="3JR6rnBJVvD" role="1m5AlR">
               <node concept="2OqwBi" id="3JR6rnBJRm2" role="2Oq$k0">
                 <node concept="2OqwBi" id="3JR6rnBJON3" role="2Oq$k0">
@@ -523,6 +522,9 @@
                 </node>
               </node>
               <node concept="1yVyf7" id="233in7sGLme" role="2OqNvi" />
+            </node>
+            <node concept="chp4Y" id="3nhzMKibo18" role="3oSUPX">
+              <ref role="cht4Q" to="tpe3:hGB2rPm" resolve="ITestCase" />
             </node>
           </node>
         </node>

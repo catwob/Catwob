@@ -170,8 +170,8 @@
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
-        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
@@ -412,6 +412,7 @@
     <ref role="3gUMe" to="dby9:3m83uObJOC3" resolve="Scenario" />
     <node concept="31I5zP" id="38OAqMXlaSU" role="13RCb5">
       <property role="2ndZFQ" value="DummyTestCase" />
+      <property role="TrG5h" value="Dummy" />
       <node concept="2nbpK0" id="38OAqMXlaSX" role="2nb375">
         <property role="2ndixJ" value="selenium test scenario" />
         <node concept="raruj" id="38OAqMXlaT6" role="lGtFl" />
@@ -496,9 +497,11 @@
                                 <node concept="X8dFx" id="1t9RnT4MMbE" role="2OqNvi">
                                   <node concept="2OqwBi" id="1t9RnT4MMbF" role="25WWJ7">
                                     <node concept="1PxgMI" id="1t9RnT4MMbG" role="2Oq$k0">
-                                      <ref role="1m5ApE" to="dby9:78EPK_h7hUh" resolve="ScenarioOutlineTemplate" />
                                       <node concept="37vLTw" id="1t9RnT4MMbH" role="1m5AlR">
                                         <ref role="3cqZAo" node="1t9RnT4MMbJ" resolve="it" />
+                                      </node>
+                                      <node concept="chp4Y" id="3nhzMKibo1e" role="3oSUPX">
+                                        <ref role="cht4Q" to="dby9:78EPK_h7hUh" resolve="ScenarioOutlineTemplate" />
                                       </node>
                                     </node>
                                     <node concept="3Tsc0h" id="1t9RnT4MMbI" role="2OqNvi">
@@ -784,9 +787,11 @@
                                 <node concept="X8dFx" id="3JR6rnB_E3o" role="2OqNvi">
                                   <node concept="2OqwBi" id="3JR6rnB_E3p" role="25WWJ7">
                                     <node concept="1PxgMI" id="3JR6rnB_E3q" role="2Oq$k0">
-                                      <ref role="1m5ApE" to="dby9:78EPK_h7hUh" resolve="ScenarioOutlineTemplate" />
                                       <node concept="37vLTw" id="3JR6rnB_E3r" role="1m5AlR">
                                         <ref role="3cqZAo" node="3JR6rnB_E3t" resolve="it" />
+                                      </node>
+                                      <node concept="chp4Y" id="3nhzMKibo1f" role="3oSUPX">
+                                        <ref role="cht4Q" to="dby9:78EPK_h7hUh" resolve="ScenarioOutlineTemplate" />
                                       </node>
                                     </node>
                                     <node concept="3Tsc0h" id="3JR6rnB_E3s" role="2OqNvi">

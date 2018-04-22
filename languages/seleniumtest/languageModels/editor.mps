@@ -2,7 +2,7 @@
 <model ref="r:63acd311-9be2-4926-a7e5-2673eeeedd11(seleniumtest.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="7" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -58,7 +58,6 @@
       <concept id="1186402211651" name="jetbrains.mps.lang.editor.structure.StyleSheet" flags="ng" index="V5hpn">
         <child id="1186402402630" name="styleClass" index="V601i" />
       </concept>
-      <concept id="1186402373407" name="jetbrains.mps.lang.editor.structure.StyleSheetClass" flags="ig" index="V5SSb" />
       <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
         <property id="1186403713874" name="color" index="Vb096" />
         <child id="1186403803051" name="query" index="VblUZ" />
@@ -80,6 +79,7 @@
         <reference id="1139445935125" name="applicableConcept" index="1chiOs" />
         <child id="1136930944870" name="item" index="2QnnpI" />
       </concept>
+      <concept id="3383245079137382180" name="jetbrains.mps.lang.editor.structure.StyleClass" flags="ig" index="14StLt" />
       <concept id="8313721352726366579" name="jetbrains.mps.lang.editor.structure.CellModel_Empty" flags="ng" index="35HoNQ" />
       <concept id="1235999440492" name="jetbrains.mps.lang.editor.structure.HorizontalAlign" flags="ln" index="37jFXN">
         <property id="1235999920262" name="align" index="37lx6p" />
@@ -158,8 +158,8 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
-        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
@@ -227,7 +227,7 @@
         </node>
         <node concept="3F0ifn" id="4cqtSm2CyYD" role="3EZMnx">
           <property role="3F0ifm" value="Test Case" />
-          <ref role="1k5W1q" node="1t9RnT4sb08" resolve="TestCase" />
+          <ref role="1k5W1q" node="3nhzMKi8Nv3" resolve="TestCase" />
         </node>
         <node concept="l2Vlx" id="4cqtSm2CyYC" role="2iSdaV" />
         <node concept="3F0A7n" id="5HK4j7SqX7M" role="3EZMnx">
@@ -280,7 +280,7 @@
     <node concept="3EZMnI" id="4cqtSm2C$LU" role="2wV5jI">
       <node concept="3F0ifn" id="4cqtSm2C$LX" role="3EZMnx">
         <property role="3F0ifm" value="Open URL" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
       </node>
       <node concept="3F0A7n" id="4cqtSm2C$LZ" role="3EZMnx">
         <ref role="1NtTu8" to="tyly:4cqtSm2C$LT" resolve="url" />
@@ -294,7 +294,7 @@
     <node concept="3EZMnI" id="2RGvzciV4mz" role="2wV5jI">
       <node concept="3F0ifn" id="2RGvzciV4mA" role="3EZMnx">
         <property role="3F0ifm" value="Click link" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
       </node>
       <node concept="3F0A7n" id="2RGvzciV4mC" role="3EZMnx">
         <ref role="1NtTu8" to="tyly:2RGvzciV4mv" resolve="linkText" />
@@ -326,7 +326,7 @@
     <node concept="3EZMnI" id="2RGvzciVa84" role="2wV5jI">
       <node concept="3F0ifn" id="2RGvzciVa87" role="3EZMnx">
         <property role="3F0ifm" value="Fill form" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
       </node>
       <node concept="3EZMnI" id="2RGvzciVa89" role="3EZMnx">
         <property role="S$Qs1" value="true" />
@@ -351,7 +351,7 @@
     <node concept="3EZMnI" id="2RGvzciVa8n" role="2wV5jI">
       <node concept="3F0ifn" id="2RGvzciVa8q" role="3EZMnx">
         <property role="3F0ifm" value="input (" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
         <node concept="11LMrY" id="43Gpi2GOCxJ" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -361,7 +361,7 @@
       </node>
       <node concept="3F0ifn" id="2RGvzciVa8u" role="3EZMnx">
         <property role="3F0ifm" value="contains" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
       </node>
       <node concept="3F0A7n" id="2RGvzciVa8w" role="3EZMnx">
         <ref role="1NtTu8" to="tyly:2RGvzciVa8j" resolve="selector" />
@@ -385,7 +385,7 @@
       <node concept="l2Vlx" id="2RGvzciVcr4" role="2iSdaV" />
       <node concept="3F0ifn" id="2RGvzciVcr5" role="3EZMnx">
         <property role="3F0ifm" value="title" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
       </node>
       <node concept="3F0ifn" id="1t9RnT4rQpV" role="3EZMnx">
         <property role="3F0ifm" value="=" />
@@ -431,7 +431,7 @@
     <node concept="3EZMnI" id="43Gpi2GOCxN" role="2wV5jI">
       <node concept="3F0ifn" id="43Gpi2GOCxO" role="3EZMnx">
         <property role="3F0ifm" value="drop down box (" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
         <node concept="11LMrY" id="43Gpi2GOCxP" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -441,7 +441,7 @@
       </node>
       <node concept="3F0ifn" id="43Gpi2GOCxR" role="3EZMnx">
         <property role="3F0ifm" value="contains" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
       </node>
       <node concept="3F0A7n" id="43Gpi2GOCxS" role="3EZMnx">
         <ref role="1NtTu8" to="tyly:43Gpi2GOCpA" resolve="selector" />
@@ -464,7 +464,7 @@
     <node concept="3EZMnI" id="43Gpi2GPrH0" role="2wV5jI">
       <node concept="3F0ifn" id="43Gpi2GPrH3" role="3EZMnx">
         <property role="3F0ifm" value="click on radio button (" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
         <node concept="11LMrY" id="43Gpi2GPt6l" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -474,7 +474,7 @@
       </node>
       <node concept="3F0ifn" id="43Gpi2GPrH7" role="3EZMnx">
         <property role="3F0ifm" value="contains" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
       </node>
       <node concept="3F0A7n" id="43Gpi2GPrH8" role="3EZMnx">
         <ref role="1NtTu8" to="tyly:43Gpi2GPrGX" resolve="selector" />
@@ -497,7 +497,7 @@
     <node concept="3EZMnI" id="43Gpi2GPttu" role="2wV5jI">
       <node concept="3F0ifn" id="43Gpi2GPttx" role="3EZMnx">
         <property role="3F0ifm" value="click on button" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
       </node>
       <node concept="3F0A7n" id="43Gpi2GPttz" role="3EZMnx">
         <ref role="1NtTu8" to="tyly:43Gpi2GPttq" resolve="attribute" />
@@ -546,8 +546,8 @@
         <node concept="2iRfu4" id="26zJhEQ_RNu" role="2iSdaV" />
         <node concept="3F0ifn" id="26zJhEQ_RNm" role="3EZMnx">
           <property role="3F0ifm" value="Test scenario" />
-          <ref role="1k5W1q" node="1t9RnT4sbb6" resolve="TestScenario" />
           <ref role="34QXea" node="3qsKpB$wLut" resolve="SeleniumTestKeyMap" />
+          <ref role="1k5W1q" node="3nhzMKi8NvF" resolve="TestScenario" />
         </node>
         <node concept="3F0A7n" id="26zJhEQ_RNA" role="3EZMnx">
           <ref role="1NtTu8" to="tyly:26zJhEQ_DlP" resolve="testScenarioName" />
@@ -640,7 +640,7 @@
       <node concept="2iRfu4" id="gi$uDo8Qul" role="2iSdaV" />
       <node concept="3F0ifn" id="gi$uDo8Quq" role="3EZMnx">
         <property role="3F0ifm" value="text is visible: " />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
         <node concept="pkWqt" id="7K0tVXpSqvU" role="pqm2j">
           <node concept="3clFbS" id="7K0tVXpSqvV" role="2VODD2">
             <node concept="3clFbF" id="7K0tVXpSqGF" role="3cqZAp">
@@ -658,7 +658,7 @@
       </node>
       <node concept="3F0ifn" id="7K0tVXpSpig" role="3EZMnx">
         <property role="3F0ifm" value="text is not visible" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
         <node concept="pkWqt" id="7K0tVXpSpty" role="pqm2j">
           <node concept="3clFbS" id="7K0tVXpSptz" role="2VODD2">
             <node concept="3clFbF" id="7K0tVXpSpCB" role="3cqZAp">
@@ -685,7 +685,7 @@
       <node concept="2iRfu4" id="gi$uDoaQFZ" role="2iSdaV" />
       <node concept="3F0ifn" id="gi$uDoaQG4" role="3EZMnx">
         <property role="3F0ifm" value="click on element where id contains" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
       </node>
       <node concept="3F1sOY" id="3JR6rnB$tV$" role="3EZMnx">
         <ref role="1NtTu8" to="tyly:3JR6rnB$tVu" resolve="id" />
@@ -694,29 +694,29 @@
   </node>
   <node concept="V5hpn" id="1t9RnT4rQ82">
     <property role="TrG5h" value="TestStepStyles" />
-    <node concept="V5SSb" id="1t9RnT4rQfW" role="V601i">
+    <node concept="14StLt" id="3nhzMKi8NtR" role="V601i">
       <property role="TrG5h" value="TestStepLabel" />
-      <node concept="Vb9p2" id="1t9RnT4rQip" role="3F10Kt">
+      <node concept="Vb9p2" id="3nhzMKi8Nu6" role="3F10Kt">
         <property role="Vbekb" value="BOLD" />
       </node>
-      <node concept="VechU" id="1t9RnT4rQkU" role="3F10Kt">
-        <node concept="1iSF2X" id="1t9RnT4rQnp" role="VblUZ">
+      <node concept="VechU" id="3nhzMKi8Nub" role="3F10Kt">
+        <node concept="1iSF2X" id="3nhzMKi8Nuc" role="VblUZ">
           <property role="1iTho6" value="B27B00" />
         </node>
       </node>
     </node>
-    <node concept="V5SSb" id="1t9RnT4sb08" role="V601i">
+    <node concept="14StLt" id="3nhzMKi8Nv3" role="V601i">
       <property role="TrG5h" value="TestCase" />
-      <node concept="VechU" id="1t9RnT4sb2G" role="3F10Kt">
-        <node concept="1iSF2X" id="1t9RnT4sb5d" role="VblUZ">
+      <node concept="VechU" id="3nhzMKi8Nvk" role="3F10Kt">
+        <node concept="1iSF2X" id="3nhzMKi8Nvl" role="VblUZ">
           <property role="1iTho6" value="FFB000" />
         </node>
       </node>
     </node>
-    <node concept="V5SSb" id="1t9RnT4sbb6" role="V601i">
+    <node concept="14StLt" id="3nhzMKi8NvF" role="V601i">
       <property role="TrG5h" value="TestScenario" />
-      <node concept="VechU" id="1t9RnT4sbb7" role="3F10Kt">
-        <node concept="1iSF2X" id="1t9RnT4sbb8" role="VblUZ">
+      <node concept="VechU" id="3nhzMKi8NvZ" role="3F10Kt">
+        <node concept="1iSF2X" id="3nhzMKi8Nw0" role="VblUZ">
           <property role="1iTho6" value="033DB2" />
         </node>
       </node>
@@ -729,7 +729,7 @@
       <node concept="2iRfu4" id="1t9RnT4t1dc" role="2iSdaV" />
       <node concept="3F0ifn" id="1t9RnT4t1dh" role="3EZMnx">
         <property role="3F0ifm" value="click on element with XPath" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
       </node>
       <node concept="3F0A7n" id="1t9RnT4t1dn" role="3EZMnx">
         <ref role="1NtTu8" to="tyly:1t9RnT4t1ad" resolve="xpath" />
@@ -741,7 +741,7 @@
     <ref role="1XX52x" to="tyly:1t9RnT4yUuJ" resolve="JavaTestStep" />
     <node concept="3F0ifn" id="1t9RnT4yUzq" role="2wV5jI">
       <property role="3F0ifm" value="Java code" />
-      <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+      <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
     </node>
     <node concept="3F1sOY" id="1t9RnT4_$lY" role="6VMZX">
       <ref role="1NtTu8" to="tyly:1t9RnT4_$l8" resolve="method" />
@@ -831,7 +831,7 @@
     <ref role="1XX52x" to="tyly:7eAMc46Zqib" resolve="TestStepMacroReference" />
     <node concept="1iCGBv" id="7eAMc46ZrDx" role="2wV5jI">
       <ref role="1NtTu8" to="tyly:7eAMc46ZqAS" resolve="macro" />
-      <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+      <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
       <node concept="1sVBvm" id="7eAMc46ZrDy" role="1sWHZn">
         <node concept="3F0A7n" id="7eAMc46ZrDB" role="2wV5jI">
           <property role="1Intyy" value="true" />
@@ -859,7 +859,6 @@
               <node concept="2OqwBi" id="7eAMc4796XH" role="2Oq$k0">
                 <node concept="2OqwBi" id="3qsKpB$wOcQ" role="2Oq$k0">
                   <node concept="1PxgMI" id="3qsKpB$yIRh" role="2Oq$k0">
-                    <ref role="1m5ApE" to="tyly:26zJhEQzy4q" resolve="TestScenario" />
                     <node concept="2OqwBi" id="3qsKpB$yHDm" role="1m5AlR">
                       <node concept="0GJ7k" id="3qsKpB$wO7k" role="2Oq$k0" />
                       <node concept="2Xjw5R" id="3qsKpB$yIBx" role="2OqNvi">
@@ -870,6 +869,9 @@
                         </node>
                         <node concept="1xIGOp" id="3qsKpB$yIGU" role="1xVPHs" />
                       </node>
+                    </node>
+                    <node concept="chp4Y" id="3nhzMKibo1i" role="3oSUPX">
+                      <ref role="cht4Q" to="tyly:26zJhEQzy4q" resolve="TestScenario" />
                     </node>
                   </node>
                   <node concept="3TrEf2" id="7eAMc4796zj" role="2OqNvi">
@@ -923,7 +925,7 @@
     <node concept="3EZMnI" id="7LAiWF7QZXG" role="2wV5jI">
       <node concept="3F0ifn" id="7LAiWF7QZXH" role="3EZMnx">
         <property role="3F0ifm" value="select from list (" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
         <node concept="11LMrY" id="7LAiWF7QZXI" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -933,7 +935,7 @@
       </node>
       <node concept="3F0ifn" id="7LAiWF7QZXK" role="3EZMnx">
         <property role="3F0ifm" value="contains" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
       </node>
       <node concept="3F0A7n" id="7LAiWF7QZXL" role="3EZMnx">
         <ref role="1NtTu8" to="tyly:7LAiWF7QZW$" resolve="selector" />
@@ -970,7 +972,7 @@
       <node concept="2iRfu4" id="e5WlLSCMDo" role="2iSdaV" />
       <node concept="3F0ifn" id="e5WlLSCMDt" role="3EZMnx">
         <property role="3F0ifm" value="click on" />
-        <ref role="1k5W1q" node="1t9RnT4rQfW" resolve="TestStepLabel" />
+        <ref role="1k5W1q" node="3nhzMKi8NtR" resolve="TestStepLabel" />
       </node>
       <node concept="1iCGBv" id="e5WlLSCMDz" role="3EZMnx">
         <ref role="1NtTu8" to="tyly:e5WlLSCMCW" resolve="pageObjectElement" />

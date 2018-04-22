@@ -2,13 +2,13 @@
 <model ref="r:deba517f-b3a8-4161-a135-80c80f797812(gherkin_with_seleniumtest.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="gejo" ref="r:2057f3ad-19f6-44ca-bbd9-613e9b6a31fd(gherkin_with_seleniumtest.structure)" implicit="true" />
     <import index="9jwb" ref="r:663f7a51-47a7-4e34-9c3d-9851f3f536cf(seleniumtest.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -80,7 +80,7 @@
             <node concept="2OqwBi" id="3JR6rnBzW60" role="2Oq$k0">
               <node concept="13iPFW" id="3JR6rnBzW3C" role="2Oq$k0" />
               <node concept="3TrEf2" id="3JR6rnBzWoq" role="2OqNvi">
-                <ref role="3Tt5mk" to="gejo:3JR6rnBzVY3" />
+                <ref role="3Tt5mk" to="gejo:3JR6rnBzVY3" resolve="placeholderFragment" />
               </node>
             </node>
             <node concept="3TrcHB" id="3JR6rnBzXtz" role="2OqNvi">

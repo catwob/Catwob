@@ -2,7 +2,7 @@
 <model ref="r:f748f9cd-3db9-4049-aa50-3cc1c3cd6a0a(MyCatwobExtensions.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -83,8 +83,8 @@
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
-        <reference id="6733348108486823428" name="concept" index="1m5ApE" />
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
+        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
@@ -203,7 +203,6 @@
         <node concept="3clFbF" id="6JmlCTo74JJ" role="3cqZAp">
           <node concept="2OqwBi" id="6JmlCTo74LP" role="3clFbG">
             <node concept="1PxgMI" id="6JmlCTo74Lv" role="2Oq$k0">
-              <ref role="1m5ApE" to="iuxj:5M4a$b5jfOv" resolve="XmlTextValue" />
               <node concept="2OqwBi" id="6JmlCTo74L2" role="1m5AlR">
                 <node concept="2OqwBi" id="6JmlCTo74Kx" role="2Oq$k0">
                   <node concept="2OqwBi" id="6JmlCTo74K5" role="2Oq$k0">
@@ -221,6 +220,9 @@
                     <property role="3cmrfH" value="0" />
                   </node>
                 </node>
+              </node>
+              <node concept="chp4Y" id="3nhzMKibo0S" role="3oSUPX">
+                <ref role="cht4Q" to="iuxj:5M4a$b5jfOv" resolve="XmlTextValue" />
               </node>
             </node>
             <node concept="3TrcHB" id="6JmlCTo74LV" role="2OqNvi">
@@ -250,7 +252,6 @@
             <node concept="3cpWs6" id="6JmlCTo7kM$" role="3cqZAp">
               <node concept="2OqwBi" id="6JmlCTo74Jv" role="3cqZAk">
                 <node concept="1PxgMI" id="6JmlCTo74J9" role="2Oq$k0">
-                  <ref role="1m5ApE" to="iuxj:1q3yNZeAEkj" resolve="XmlText" />
                   <node concept="2OqwBi" id="6JmlCTo74Ih" role="1m5AlR">
                     <node concept="2OqwBi" id="6JmlCTo74HP" role="2Oq$k0">
                       <node concept="2OqwBi" id="6JmlCTo74Hq" role="2Oq$k0">
@@ -268,6 +269,9 @@
                         <property role="3cmrfH" value="0" />
                       </node>
                     </node>
+                  </node>
+                  <node concept="chp4Y" id="3nhzMKibo0O" role="3oSUPX">
+                    <ref role="cht4Q" to="iuxj:1q3yNZeAEkj" resolve="XmlText" />
                   </node>
                 </node>
                 <node concept="3TrcHB" id="6JmlCTo74J_" role="2OqNvi">
@@ -329,7 +333,6 @@
             <node concept="3cpWs6" id="2QYIrmwuaWJ" role="3cqZAp">
               <node concept="2OqwBi" id="2QYIrmwuaWK" role="3cqZAk">
                 <node concept="1PxgMI" id="2QYIrmwuaWL" role="2Oq$k0">
-                  <ref role="1m5ApE" to="iuxj:1q3yNZeAEkj" resolve="XmlText" />
                   <node concept="2OqwBi" id="2QYIrmwuaWM" role="1m5AlR">
                     <node concept="2OqwBi" id="2QYIrmwuaWN" role="2Oq$k0">
                       <node concept="2OqwBi" id="2QYIrmwuaWO" role="2Oq$k0">
@@ -347,6 +350,9 @@
                         <property role="3cmrfH" value="0" />
                       </node>
                     </node>
+                  </node>
+                  <node concept="chp4Y" id="3nhzMKibo0T" role="3oSUPX">
+                    <ref role="cht4Q" to="iuxj:1q3yNZeAEkj" resolve="XmlText" />
                   </node>
                 </node>
                 <node concept="3TrcHB" id="2QYIrmwuaWU" role="2OqNvi">

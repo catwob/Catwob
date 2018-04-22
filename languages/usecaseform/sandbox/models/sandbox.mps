@@ -7,11 +7,10 @@
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
     <use id="b06f6336-6262-4aa6-9077-6428311586c7" name="seleniumtest" version="-1" />
     <use id="9d5c9b81-eae4-4af1-9b07-751abdfe4484" name="permissions" version="-1" />
-    <use id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf" version="-1" />
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="-1" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <engage id="b06f6336-6262-4aa6-9077-6428311586c7" name="seleniumtest" />
   </languages>
@@ -19,11 +18,6 @@
     <import index="j02o" ref="r:48e11a50-c2e4-498e-afc2-fefe986a3d00(seleniumtest.util)" />
   </imports>
   <registry>
-    <language id="93bc01ac-08ca-4f11-9c7d-614d04055dfb" name="org.campagnelab.mps.editor2pdf">
-      <concept id="893392931327129896" name="org.campagnelab.mps.editor2pdf.structure.DiagramOutputDirectory" flags="ng" index="KZc4b">
-        <property id="893392931327129956" name="path" index="KZc57" />
-      </concept>
-    </language>
     <language id="ad483618-38b5-40d4-a3b4-315b97da81b0" name="usecaseform">
       <concept id="3327922516426157085" name="usecaseform.structure.UseCase" flags="ng" index="2DHsJS">
         <property id="3327922516426157092" name="version" index="2DHsJ1" />
@@ -257,10 +251,6 @@
     </node>
   </node>
   <node concept="31IuQ2" id="4cqtSm2CU5_" />
-  <node concept="KZc4b" id="2IPPvIh4x_7">
-    <property role="TrG5h" value="pdfexport" />
-    <property role="KZc57" value="/p" />
-  </node>
   <node concept="3VVqaX" id="2whY61c9M6R">
     <property role="TrG5h" value="stef" />
     <node concept="3VRwVW" id="2whY61c9M6S" role="3VVqcd">

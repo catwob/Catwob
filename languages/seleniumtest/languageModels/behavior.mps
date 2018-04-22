@@ -2,7 +2,7 @@
 <model ref="r:663f7a51-47a7-4e34-9c3d-9851f3f536cf(seleniumtest.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -112,7 +112,7 @@
           <node concept="2OqwBi" id="58z6k1VgAdn" role="3clFbG">
             <node concept="13iPFW" id="58z6k1VgA9v" role="2Oq$k0" />
             <node concept="3Tsc0h" id="58z6k1VgACV" role="2OqNvi">
-              <ref role="3TtcxE" to="tyly:26zJhEQzSNv" />
+              <ref role="3TtcxE" to="tyly:26zJhEQzSNv" resolve="testScenarios" />
             </node>
           </node>
         </node>
@@ -138,7 +138,7 @@
             <node concept="2OqwBi" id="6GBbUjOQ1tQ" role="2Oq$k0">
               <node concept="13iPFW" id="6GBbUjOQ1n6" role="2Oq$k0" />
               <node concept="3Tsc0h" id="6GBbUjOQ2OQ" role="2OqNvi">
-                <ref role="3TtcxE" to="tyly:26zJhEQz$sN" />
+                <ref role="3TtcxE" to="tyly:26zJhEQz$sN" resolve="testSteps" />
               </node>
             </node>
             <node concept="WFELt" id="6GBbUjOQaLi" role="2OqNvi">
