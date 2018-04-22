@@ -23,9 +23,7 @@
     <stubModelEntry path="${module}/lib/jna-platform-4.1.0.jar" />
   </stubModelEntries>
   <sourcePath />
-  <languageVersions>
-    <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="1" />
-  </languageVersions>
+  <languageVersions />
   <dependencyVersions>
     <module reference="55555c08-2d82-4b20-9bb5-e0a924ba3742(SeleniumLibs.runtime)" version="0" />
   </dependencyVersions>
