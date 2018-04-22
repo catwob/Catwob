@@ -9,12 +9,13 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="k5gm" ref="f:java_stub#b06f6336-6262-4aa6-9077-6428311586c7#org.openqa.selenium(seleniumtest/org.openqa.selenium@java_stub)" />
+    <import index="t9m0" ref="b06f6336-6262-4aa6-9077-6428311586c7/java:org.openqa.selenium(seleniumtest/)" />
     <import index="tyly" ref="r:ea55c8ba-f72e-4e24-b218-ab8f1262db67(seleniumtest.structure)" />
-    <import index="qjxg" ref="f:java_stub#83f155ff-422c-4b5a-a2f2-b459302dd215#org.junit(jetbrains.mps.baseLanguage.unitTest.libs/org.junit@java_stub)" />
-    <import index="mkq5" ref="f:java_stub#83f155ff-422c-4b5a-a2f2-b459302dd215#org.hamcrest(jetbrains.mps.baseLanguage.unitTest.libs/org.hamcrest@java_stub)" />
     <import index="gejo" ref="r:2057f3ad-19f6-44ca-bbd9-613e9b6a31fd(gherkin_with_seleniumtest.structure)" />
     <import index="dby9" ref="r:c9eb1d88-4e3a-40e9-8a39-ddcec7080a6e(gherkin.structure)" />
+    <import index="rjhg" ref="49808fad-9d41-4b96-83fa-9231640f6b2b/java:org.junit(JUnit/)" />
+    <import index="ppox" ref="b06f6336-6262-4aa6-9077-6428311586c7/java:org.openqa.selenium.lift(seleniumtest/)" />
+    <import index="4k19" ref="1fd846c3-c5f9-4b9e-9ecc-e716f7149f86/java:org.hamcrest(Hamcrest/)" />
     <import index="ytqb" ref="r:f24fb939-6892-4a5f-ba62-a9ac6c9199c9(MyCatwobExtensions.structure)" implicit="true" />
     <import index="9jwb" ref="r:663f7a51-47a7-4e34-9c3d-9851f3f536cf(seleniumtest.behavior)" implicit="true" />
   </imports>
@@ -147,7 +148,7 @@
         <property role="TrG5h" value="driver" />
         <node concept="3Tm6S6" id="2RGvzciV55S" role="1B3o_S" />
         <node concept="3uibUv" id="2RGvzciV55T" role="1tU5fm">
-          <ref role="3uigEE" to="k5gm:~WebDriver" resolve="WebDriver" />
+          <ref role="3uigEE" to="t9m0:~WebDriver" resolve="WebDriver" />
         </node>
       </node>
       <node concept="3clFbW" id="2RGvzciV55V" role="jymVt">
@@ -161,27 +162,27 @@
         <node concept="3Tm1VV" id="2RGvzciV55C" role="1B3o_S" />
         <node concept="3clFbS" id="2RGvzciV55D" role="3clF47">
           <node concept="3clFbF" id="69m0eZg2zHz" role="3cqZAp">
-            <node concept="2YIFZM" id="69m0eZg2zLE" role="3clFbG">
-              <ref role="37wK5l" to="qjxg:~Assert.assertThat(java.lang.Object,org.hamcrest.Matcher):void" resolve="assertThat" />
-              <ref role="1Pybhc" to="qjxg:~Assert" resolve="Assert" />
-              <node concept="2OqwBi" id="69m0eZg2zO1" role="37wK5m">
-                <node concept="37vLTw" id="69m0eZg2zO2" role="2Oq$k0">
+            <node concept="2YIFZM" id="2lO_PJMtI74" role="3clFbG">
+              <ref role="37wK5l" to="rjhg:~Assert.assertThat(java.lang.Object,org.hamcrest.Matcher):void" resolve="assertThat" />
+              <ref role="1Pybhc" to="rjhg:~Assert" resolve="Assert" />
+              <node concept="2OqwBi" id="2lO_PJMtI75" role="37wK5m">
+                <node concept="37vLTw" id="2lO_PJMtI76" role="2Oq$k0">
                   <ref role="3cqZAo" node="2RGvzciV55R" resolve="driver" />
                 </node>
-                <node concept="liA8E" id="69m0eZg2zO3" role="2OqNvi">
-                  <ref role="37wK5l" to="k5gm:~WebDriver.findElement(org.openqa.selenium.By):org.openqa.selenium.WebElement" resolve="findElement" />
-                  <node concept="2YIFZM" id="69m0eZg2zO4" role="37wK5m">
-                    <ref role="37wK5l" to="k5gm:~By.xpath(java.lang.String):org.openqa.selenium.By" resolve="xpath" />
-                    <ref role="1Pybhc" to="k5gm:~By" resolve="By" />
-                    <node concept="Xl_RD" id="69m0eZg2zO5" role="37wK5m">
+                <node concept="liA8E" id="2lO_PJMtI77" role="2OqNvi">
+                  <ref role="37wK5l" to="t9m0:~WebDriver.findElement(org.openqa.selenium.By):org.openqa.selenium.WebElement" resolve="findElement" />
+                  <node concept="2YIFZM" id="2lO_PJMtI78" role="37wK5m">
+                    <ref role="37wK5l" to="t9m0:~By.xpath(java.lang.String):org.openqa.selenium.By" resolve="xpath" />
+                    <ref role="1Pybhc" to="t9m0:~By" resolve="By" />
+                    <node concept="Xl_RD" id="2lO_PJMtI79" role="37wK5m">
                       <property role="Xl_RC" value="//a[contains(text(), 'Impressum')]" />
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="2YIFZM" id="69m0eZg2$jS" role="37wK5m">
-                <ref role="37wK5l" to="mkq5:~Matchers.notNullValue():org.hamcrest.Matcher" resolve="notNullValue" />
-                <ref role="1Pybhc" to="mkq5:~Matchers" resolve="Matchers" />
+              <node concept="2YIFZM" id="2lO_PJMtLRW" role="37wK5m">
+                <ref role="37wK5l" to="4k19:~CoreMatchers.notNullValue():org.hamcrest.Matcher" resolve="notNullValue" />
+                <ref role="1Pybhc" to="4k19:~CoreMatchers" resolve="CoreMatchers" />
               </node>
             </node>
             <node concept="raruj" id="69m0eZg2$wg" role="lGtFl" />

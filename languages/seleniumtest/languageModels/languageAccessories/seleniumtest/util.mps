@@ -3,14 +3,15 @@
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
+    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="a19p" ref="83f155ff-422c-4b5a-a2f2-b459302dd215/java:org.junit.rules(jetbrains.mps.baseLanguage.unitTest.libs/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="t9m0" ref="b06f6336-6262-4aa6-9077-6428311586c7/java:org.openqa.selenium(seleniumtest/)" />
-    <import index="7cms" ref="83f155ff-422c-4b5a-a2f2-b459302dd215/java:org.junit.runners.model(jetbrains.mps.baseLanguage.unitTest.libs/)" />
-    <import index="cvlm" ref="83f155ff-422c-4b5a-a2f2-b459302dd215/java:org.junit.runner(jetbrains.mps.baseLanguage.unitTest.libs/)" />
+    <import index="a19p" ref="49808fad-9d41-4b96-83fa-9231640f6b2b/java:org.junit.rules(JUnit/)" />
+    <import index="cvlm" ref="49808fad-9d41-4b96-83fa-9231640f6b2b/java:org.junit.runner(JUnit/)" />
+    <import index="7cms" ref="49808fad-9d41-4b96-83fa-9231640f6b2b/java:org.junit.runners.model(JUnit/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -155,7 +156,7 @@
       <property role="TrG5h" value="base" />
       <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="1t9RnT4GyzW" role="1B3o_S" />
-      <node concept="3uibUv" id="1t9RnT4Gy$2" role="1tU5fm">
+      <node concept="3uibUv" id="2lO_PJMuMi5" role="1tU5fm">
         <ref role="3uigEE" to="7cms:~Statement" resolve="Statement" />
       </node>
     </node>
@@ -169,7 +170,7 @@
     </node>
     <node concept="2tJIrI" id="1t9RnT4Gy_e" role="jymVt" />
     <node concept="3Tm1VV" id="1t9RnT4Gyzh" role="1B3o_S" />
-    <node concept="3uibUv" id="1t9RnT4Gyz_" role="1zkMxy">
+    <node concept="3uibUv" id="2lO_PJMuMeo" role="1zkMxy">
       <ref role="3uigEE" to="7cms:~Statement" resolve="Statement" />
     </node>
     <node concept="3clFbW" id="1t9RnT4Gy_n" role="jymVt">
@@ -199,7 +200,7 @@
       </node>
       <node concept="37vLTG" id="1t9RnT4Gy_u" role="3clF46">
         <property role="TrG5h" value="base1" />
-        <node concept="3uibUv" id="1t9RnT4Gy_t" role="1tU5fm">
+        <node concept="3uibUv" id="2lO_PJMuMkL" role="1tU5fm">
           <ref role="3uigEE" to="7cms:~Statement" resolve="Statement" />
         </node>
       </node>
@@ -313,13 +314,13 @@
       <property role="DiZV1" value="false" />
       <node concept="37vLTG" id="1t9RnT4Gy43" role="3clF46">
         <property role="TrG5h" value="base" />
-        <node concept="3uibUv" id="1t9RnT4Gy42" role="1tU5fm">
+        <node concept="3uibUv" id="2lO_PJMvq0i" role="1tU5fm">
           <ref role="3uigEE" to="7cms:~Statement" resolve="Statement" />
         </node>
       </node>
       <node concept="37vLTG" id="1t9RnT4Gy45" role="3clF46">
         <property role="TrG5h" value="description" />
-        <node concept="3uibUv" id="1t9RnT4Gy44" role="1tU5fm">
+        <node concept="3uibUv" id="2lO_PJMvq2a" role="1tU5fm">
           <ref role="3uigEE" to="cvlm:~Description" resolve="Description" />
         </node>
       </node>
@@ -344,12 +345,12 @@
         </node>
       </node>
       <node concept="3Tm1VV" id="1t9RnT4GypG" role="1B3o_S" />
-      <node concept="3uibUv" id="1t9RnT4GypV" role="3clF45">
+      <node concept="3uibUv" id="2lO_PJMvoZa" role="3clF45">
         <ref role="3uigEE" to="7cms:~Statement" resolve="Statement" />
       </node>
     </node>
     <node concept="3Tm1VV" id="1t9RnT4GxXQ" role="1B3o_S" />
-    <node concept="3uibUv" id="1t9RnT4Gy73" role="EKbjA">
+    <node concept="3uibUv" id="2lO_PJMvoYm" role="EKbjA">
       <ref role="3uigEE" to="a19p:~TestRule" resolve="TestRule" />
     </node>
   </node>
