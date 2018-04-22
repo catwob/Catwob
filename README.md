@@ -3,16 +3,12 @@ Catwob
 
 Prerequisites
 -------------
-* MPS 3.1.x
-* Installed Plugins:
- - itext
- - editor.multiline
- - richtext
+* MPS 2018.1
 * Seleniumtest Solutions use Spring Petclinic
 
 First Steps
 -----------
-* open the project in MPS 3.1.x
+* open the project in MPS 2018.1
 * build the languages
 * build the solutions
 * start Spring Petclinic (mvn tomcat7:run)
@@ -47,3 +43,6 @@ New Features
 		Given ...
 		When ...
 		Then ...
+
+* Generate Test Cases (Scenario Outline) from some source model
+		
