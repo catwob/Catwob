@@ -2,7 +2,7 @@
 <model ref="r:3d87e61a-71a7-44e2-bcad-e09a5bddd02d(seleniumtest.scripts)">
   <persistence version="9" />
   <languages>
-    <use id="0eddeefa-c2d6-4437-bc2c-de50fd4ce470" name="jetbrains.mps.lang.script" version="-1" />
+    <use id="0eddeefa-c2d6-4437-bc2c-de50fd4ce470" name="jetbrains.mps.lang.script" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -148,7 +148,7 @@
               <node concept="2OqwBi" id="3JR6rnB$25k" role="2Oq$k0">
                 <node concept="_YI3z" id="3JR6rnB$23P" role="2Oq$k0" />
                 <node concept="3TrEf2" id="3JR6rnB$2eM" role="2OqNvi">
-                  <ref role="3Tt5mk" to="tyly:3JR6rnByWiG" />
+                  <ref role="3Tt5mk" to="tyly:3JR6rnByWiG" resolve="visibleText" />
                 </node>
               </node>
               <node concept="2oxUTD" id="3JR6rnB$2YU" role="2OqNvi">
@@ -167,7 +167,7 @@
               <node concept="2OqwBi" id="3JR6rnB$0Ne" role="2Oq$k0">
                 <node concept="_YI3z" id="3JR6rnB$0IK" role="2Oq$k0" />
                 <node concept="3TrEf2" id="3JR6rnB$1fA" role="2OqNvi">
-                  <ref role="3Tt5mk" to="tyly:3JR6rnByWiG" />
+                  <ref role="3Tt5mk" to="tyly:3JR6rnByWiG" resolve="visibleText" />
                 </node>
               </node>
               <node concept="3w_OXm" id="3JR6rnB$1RA" role="2OqNvi" />
@@ -224,7 +224,7 @@
               <node concept="2OqwBi" id="3JR6rnB_9DQ" role="2Oq$k0">
                 <node concept="_YI3z" id="3JR6rnB_9Cb" role="2Oq$k0" />
                 <node concept="3TrEf2" id="3JR6rnB_a3D" role="2OqNvi">
-                  <ref role="3Tt5mk" to="tyly:3JR6rnB$tVu" />
+                  <ref role="3Tt5mk" to="tyly:3JR6rnB$tVu" resolve="id" />
                 </node>
               </node>
               <node concept="2oxUTD" id="3JR6rnB_atR" role="2OqNvi">
@@ -243,7 +243,7 @@
               <node concept="2OqwBi" id="3JR6rnB_7d6" role="2Oq$k0">
                 <node concept="_YI3z" id="3JR6rnB_78C" role="2Oq$k0" />
                 <node concept="3TrEf2" id="3JR6rnB_7Du" role="2OqNvi">
-                  <ref role="3Tt5mk" to="tyly:3JR6rnB$tVu" />
+                  <ref role="3Tt5mk" to="tyly:3JR6rnB$tVu" resolve="id" />
                 </node>
               </node>
               <node concept="3w_OXm" id="3JR6rnB_8kC" role="2OqNvi" />
@@ -269,7 +269,7 @@
                   <node concept="2OqwBi" id="4XeN$UOBrQv" role="2Oq$k0">
                     <node concept="_YI3z" id="4XeN$UOBrKX" role="2Oq$k0" />
                     <node concept="3TrEf2" id="4XeN$UOBtdz" role="2OqNvi">
-                      <ref role="3Tt5mk" to="tyly:4XeN$UO$Ajh" />
+                      <ref role="3Tt5mk" to="tyly:4XeN$UO$Ajh" resolve="testStepList" />
                     </node>
                   </node>
                   <node concept="zfrQC" id="4XeN$UOBuL_" role="2OqNvi" />
@@ -280,7 +280,7 @@
               <node concept="2OqwBi" id="4XeN$UOBoAV" role="2Oq$k0">
                 <node concept="_YI3z" id="4XeN$UOBowP" role="2Oq$k0" />
                 <node concept="3TrEf2" id="4XeN$UOBq4m" role="2OqNvi">
-                  <ref role="3Tt5mk" to="tyly:4XeN$UO$Ajh" />
+                  <ref role="3Tt5mk" to="tyly:4XeN$UO$Ajh" resolve="testStepList" />
                 </node>
               </node>
               <node concept="3w_OXm" id="4XeN$UOBrBG" role="2OqNvi" />
@@ -292,18 +292,18 @@
                 <node concept="2OqwBi" id="4XeN$UOBzbf" role="2Oq$k0">
                   <node concept="_YI3z" id="4XeN$UOBz5u" role="2Oq$k0" />
                   <node concept="3TrEf2" id="4XeN$UOB$HB" role="2OqNvi">
-                    <ref role="3Tt5mk" to="tyly:4XeN$UO$Ajh" />
+                    <ref role="3Tt5mk" to="tyly:4XeN$UO$Ajh" resolve="testStepList" />
                   </node>
                 </node>
                 <node concept="3Tsc0h" id="4XeN$UOBAiT" role="2OqNvi">
-                  <ref role="3TtcxE" to="tyly:4XeN$UO$cWc" />
+                  <ref role="3TtcxE" to="tyly:4XeN$UO$cWc" resolve="testSteps" />
                 </node>
               </node>
               <node concept="X8dFx" id="4XeN$UOBHQO" role="2OqNvi">
                 <node concept="2OqwBi" id="4XeN$UOBIZe" role="25WWJ7">
                   <node concept="_YI3z" id="4XeN$UOBIR0" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="4XeN$UOBM3M" role="2OqNvi">
-                    <ref role="3TtcxE" to="tyly:26zJhEQz$sN" />
+                    <ref role="3TtcxE" to="tyly:26zJhEQz$sN" resolve="testSteps" />
                   </node>
                 </node>
               </node>
@@ -314,7 +314,7 @@
               <node concept="2OqwBi" id="58z6k1Vk_HO" role="2Oq$k0">
                 <node concept="_YI3z" id="58z6k1Vk_Fs" role="2Oq$k0" />
                 <node concept="3Tsc0h" id="58z6k1VkAcw" role="2OqNvi">
-                  <ref role="3TtcxE" to="tyly:26zJhEQz$sN" />
+                  <ref role="3TtcxE" to="tyly:26zJhEQz$sN" resolve="testSteps" />
                 </node>
               </node>
               <node concept="2Kehj3" id="58z6k1VkEoM" role="2OqNvi" />
@@ -329,7 +329,7 @@
               <node concept="2OqwBi" id="4XeN$UOB3LA" role="2Oq$k0">
                 <node concept="_YI3z" id="4XeN$UOB3Ci" role="2Oq$k0" />
                 <node concept="3Tsc0h" id="4XeN$UOB5j0" role="2OqNvi">
-                  <ref role="3TtcxE" to="tyly:26zJhEQz$sN" />
+                  <ref role="3TtcxE" to="tyly:26zJhEQz$sN" resolve="testSteps" />
                 </node>
               </node>
               <node concept="3GX2aA" id="4XeN$UOBojs" role="2OqNvi" />

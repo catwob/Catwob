@@ -2,8 +2,8 @@
 <model ref="r:82bacfc1-cabc-4efa-830e-23a4f86565ca(gherkin.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="1" />
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -26,7 +26,6 @@
       </concept>
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
-        <property id="1225194472833" name="isPrivate" index="13i0is" />
         <property id="1225194472832" name="isVirtual" index="13i0it" />
         <property id="1225194472834" name="isAbstract" index="13i0iv" />
         <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
@@ -481,7 +480,6 @@
       <property role="TrG5h" value="getTestCase" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
-      <property role="13i0is" value="false" />
       <ref role="13i0hy" to="tpe5:hGBgWVd" resolve="getTestCase" />
       <node concept="3Tm1VV" id="56B8nhG$bDD" role="1B3o_S" />
       <node concept="3clFbS" id="56B8nhG$bDE" role="3clF47">
@@ -537,7 +535,6 @@
       <property role="TrG5h" value="getTestName" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
-      <property role="13i0is" value="false" />
       <ref role="13i0hy" to="tpe5:hGBohAB" resolve="getTestName" />
       <node concept="3Tm1VV" id="56B8nhG$bDH" role="1B3o_S" />
       <node concept="3clFbS" id="56B8nhG$bDI" role="3clF47">
@@ -553,7 +550,6 @@
       <node concept="17QB3L" id="56B8nhG$bDJ" role="3clF45" />
     </node>
     <node concept="13i0hz" id="7oYKDyFb6Qi" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getPresentation" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
@@ -579,7 +575,6 @@
     </node>
     <node concept="13i0hz" id="46i38VIfIVK" role="13h7CS">
       <property role="13i0iv" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getTestSet" />
       <property role="13i0it" value="false" />
       <ref role="13i0hy" to="tpe5:hGB2z8L" resolve="getTestSet" />
@@ -663,7 +658,6 @@
       <property role="TrG5h" value="getTestSet" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
-      <property role="13i0is" value="false" />
       <ref role="13i0hy" to="tpe5:hGB2z8L" resolve="getTestSet" />
       <node concept="3Tm1VV" id="1t9RnT4TNDH" role="1B3o_S" />
       <node concept="3clFbS" id="1t9RnT4TNDI" role="3clF47">
@@ -864,7 +858,6 @@
       <property role="TrG5h" value="getTestCase" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
-      <property role="13i0is" value="false" />
       <ref role="13i0hy" to="tpe5:hGBgWVd" resolve="getTestCase" />
       <node concept="3Tm1VV" id="1t9RnT52ZKs" role="1B3o_S" />
       <node concept="3clFbS" id="1t9RnT52ZKt" role="3clF47">
@@ -889,7 +882,6 @@
       <property role="TrG5h" value="getTestName" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
-      <property role="13i0is" value="false" />
       <ref role="13i0hy" to="tpe5:hGBohAB" resolve="getTestName" />
       <node concept="3Tm1VV" id="1t9RnT52ZKA" role="1B3o_S" />
       <node concept="3clFbS" id="1t9RnT52ZKB" role="3clF47">
@@ -926,7 +918,6 @@
     </node>
     <node concept="13i0hz" id="3JR6rnBGwZX" role="13h7CS">
       <property role="13i0iv" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getTestCase" />
       <property role="13i0it" value="false" />
       <ref role="13i0hy" to="tpe5:hGBgWVd" resolve="getTestCase" />
@@ -951,7 +942,6 @@
     </node>
     <node concept="13i0hz" id="3JR6rnBGx03" role="13h7CS">
       <property role="13i0iv" value="false" />
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getTestName" />
       <property role="13i0it" value="false" />
       <ref role="13i0hy" to="tpe5:hGBohAB" resolve="getTestName" />
@@ -976,7 +966,6 @@
       <node concept="3clFbS" id="3WUcCwttIsT" role="2VODD2" />
     </node>
     <node concept="13i0hz" id="3WUcCwttIAS" role="13h7CS">
-      <property role="13i0is" value="false" />
       <property role="TrG5h" value="getPresentation" />
       <property role="13i0it" value="false" />
       <property role="13i0iv" value="false" />
