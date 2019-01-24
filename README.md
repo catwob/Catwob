@@ -3,12 +3,12 @@ Catwob
 
 Prerequisites
 -------------
-* MPS 2018.1
+* MPS 2018.3
 * Seleniumtest Solutions use Spring Petclinic
 
 First Steps
 -----------
-* open the project in MPS 2018.1
+* open the project in MPS
 * build the languages
 * build the solutions
 * start Spring Petclinic (mvn tomcat7:run)
