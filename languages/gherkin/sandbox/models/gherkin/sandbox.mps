@@ -37,6 +37,7 @@
         <reference id="5944908280819642928" name="placeholder" index="I2fM_" />
       </concept>
       <concept id="3857348392598325748" name="gherkin.structure.Feature" flags="ng" index="YdOgp">
+        <property id="1678115870563861385" name="featureName" index="1jF_VR" />
         <child id="3857348392598325774" name="scenarios" index="YdOvz" />
         <child id="3857348392598329079" name="info" index="YdPGq" />
         <child id="3857348392598371517" name="background" index="YdZ5g" />
@@ -86,6 +87,7 @@
   <node concept="YdOgp" id="3m83uObJPMR">
     <property role="TrG5h" value="Serve coffee" />
     <property role="1jIQ5C" value="A Feature" />
+    <property role="1jF_VR" value="Serve coffee" />
     <node concept="YdXZH" id="3m83uObJYQA" role="2zur$T">
       <property role="TrG5h" value="coffee" />
     </node>

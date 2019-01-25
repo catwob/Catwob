@@ -45,6 +45,7 @@
         <property id="6588785161170167707" name="tagName" index="2zArqE" />
       </concept>
       <concept id="3857348392598325748" name="gherkin.structure.Feature" flags="ng" index="YdOgp">
+        <property id="1678115870563861385" name="featureName" index="1jF_VR" />
         <child id="3857348392598325774" name="scenarios" index="YdOvz" />
         <child id="3857348392598329079" name="info" index="YdPGq" />
       </concept>
@@ -65,6 +66,7 @@
       </concept>
       <concept id="8106509643381773882" name="gherkin.structure.FeatureSet" flags="ng" index="1Yz8QC">
         <property id="2772763335109784059" name="hideDetails" index="_2ehF" />
+        <property id="4069710482145333634" name="featureSetName" index="Mz_mt" />
         <child id="6588785161170717726" name="scenarioFilters" index="2zwxOJ" />
         <child id="7770493376438168162" name="customStatistic" index="NMjNG" />
         <child id="8106509643381773884" name="features" index="1Yz8QI" />
@@ -96,6 +98,7 @@
   <node concept="YdOgp" id="1t9RnT57QTI">
     <property role="1jIQ5C" value="Progress" />
     <property role="TrG5h" value="Progress" />
+    <property role="1jF_VR" value="Progress" />
     <node concept="YdOvI" id="9VQBFnRsBf" role="YdOvz">
       <property role="MzPNr" value="first scenario with progress" />
       <node concept="YdVcO" id="19klT6sUAHi" role="YdVcb">
@@ -131,10 +134,12 @@
     <property role="1jIQ5C" value="A Feature Set" />
     <property role="_2ehF" value="false" />
     <property role="TrG5h" value="Basic Features" />
+    <property role="Mz_mt" value="Basic Features" />
     <node concept="2HESjB" id="69m0eZg0xGc" role="NMjNG" />
     <node concept="YdOgp" id="69m0eZfZnzm" role="1Yz8QI">
       <property role="1jIQ5C" value="Custom Statistic" />
       <property role="TrG5h" value="At the Home Page, there is..." />
+      <property role="1jF_VR" value="At the Home Page, there is..." />
       <node concept="2dLi1V" id="7f2p02ZO26h" role="YdPGq">
         <property role="_VZeG" value="C:\Users\jn\Pictures\spring-petclinit-home.PNG" />
       </node>

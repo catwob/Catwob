@@ -9,7 +9,6 @@
   <imports>
     <import index="j02o" ref="r:48e11a50-c2e4-498e-afc2-fefe986a3d00(seleniumtest.util)" />
     <import index="t9m0" ref="b06f6336-6262-4aa6-9077-6428311586c7/java:org.openqa.selenium(seleniumtest/)" />
-    <import index="4k19" ref="83f155ff-422c-4b5a-a2f2-b459302dd215/java:org.hamcrest(jetbrains.mps.baseLanguage.unitTest.libs/)" />
     <import index="g7qz" ref="r:d56afd71-8f8d-458a-a844-2b83bfcd2343(PageObjects)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>

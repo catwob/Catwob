@@ -7,6 +7,7 @@
   <imports>
     <import index="tyly" ref="r:ea55c8ba-f72e-4e24-b218-ab8f1262db67(seleniumtest.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <import index="i3la" ref="r:4bfb6e16-18f7-49e1-8eb8-32bc3159d6e5(gherkin.constraints)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -21,6 +22,9 @@
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
@@ -66,6 +70,25 @@
   </registry>
   <node concept="1M2fIO" id="26zJhEQ_rb0">
     <ref role="1M2myG" to="tyly:4cqtSm2CyXK" resolve="TestCase" />
+    <node concept="EnEH3" id="2fiY5DpQZ3b" role="1MhHOB">
+      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
+      <node concept="Eqf_E" id="2fiY5DpQZ3d" role="EtsB7">
+        <node concept="3clFbS" id="2fiY5DpQZ3e" role="2VODD2">
+          <node concept="3cpWs6" id="2fiY5DpQZ3k" role="3cqZAp">
+            <node concept="2YIFZM" id="2fiY5DpQZ4n" role="3cqZAk">
+              <ref role="37wK5l" to="i3la:25kR9wvwwsd" resolve="makeValidClassname" />
+              <ref role="1Pybhc" to="i3la:25kR9wvwqJf" resolve="GAttributeNameUtil" />
+              <node concept="2OqwBi" id="2fiY5DpQZlD" role="37wK5m">
+                <node concept="EsrRn" id="2fiY5DpQZ4s" role="2Oq$k0" />
+                <node concept="3TrcHB" id="2fiY5DpQZEP" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1M2fIO" id="26zJhEQ_Dme">
     <ref role="1M2myG" to="tyly:26zJhEQzy4q" resolve="TestScenario" />

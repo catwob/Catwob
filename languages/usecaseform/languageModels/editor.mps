@@ -251,7 +251,7 @@
           </node>
           <node concept="2iRfu4" id="2SJ9Ym7AMiY" role="2iSdaV" />
           <node concept="3F0A7n" id="5HK4j7SDC_x" role="3EZMnx">
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1NtTu8" to="ynoo:2fiY5DpRlzT" resolve="useCaseName" />
           </node>
         </node>
         <node concept="3EZMnI" id="2SJ9Ym7AIKN" role="3EZMnx">

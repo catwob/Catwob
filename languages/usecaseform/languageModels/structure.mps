@@ -241,6 +241,11 @@
       <property role="IQ2nx" value="3327922516426157092" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="2fiY5DpRlzT" role="1TKVEl">
+      <property role="IQ2nx" value="2581398603375139065" />
+      <property role="TrG5h" value="useCaseName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="PrWs8" id="2SJ9Ym7AIKu" role="PzmwI">
       <ref role="PrY4T" node="2SJ9Ym7AIKq" resolve="IUseCase" />
     </node>

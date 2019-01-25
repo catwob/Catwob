@@ -24,6 +24,7 @@
         <property id="3327922516426157091" name="author" index="2DHsJ6" />
         <property id="3327922516426157090" name="date" index="2DHsJ7" />
         <property id="3327922516426157087" name="goal" index="2DHsJU" />
+        <property id="2581398603375139065" name="useCaseName" index="1U3U2z" />
         <child id="3287615388587589699" name="actor" index="Jgfi4" />
       </concept>
       <concept id="3287615388587589661" name="usecaseform.structure.RoleReference" flags="ng" index="Jgfjq">
@@ -110,6 +111,7 @@
     <property role="2DHsJ6" value="Jens Nerche" />
     <property role="2DHsJ1" value="1" />
     <property role="2ndZFQ" value="Anonymes Surfen" />
+    <property role="1U3U2z" value="Surf anonymously" />
     <node concept="2nbpK0" id="26zJhEQ_2mo" role="2nb375">
       <property role="TrG5h" value="the first scenario" />
       <property role="2ndixJ" value="Standard case" />
