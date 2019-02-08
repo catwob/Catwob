@@ -155,11 +155,15 @@
       <concept id="1114706874351" name="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro" flags="ln" index="29HgVG">
         <child id="1168024447342" name="sourceNodeQuery" index="3NFExx" />
       </concept>
+      <concept id="1219952072943" name="jetbrains.mps.lang.generator.structure.DropRootRule" flags="lg" index="aNPBN">
+        <reference id="1219952338328" name="applicableConcept" index="aOQi4" />
+      </concept>
       <concept id="1114729360583" name="jetbrains.mps.lang.generator.structure.CopySrcListMacro" flags="ln" index="2b32R4">
         <child id="1168278589236" name="sourceNodesQuery" index="2P8S$" />
       </concept>
       <concept id="1202776937179" name="jetbrains.mps.lang.generator.structure.AbandonInput_RuleConsequence" flags="lg" index="b5Tf3" />
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
+        <child id="1219952894531" name="dropRootRule" index="aQYdv" />
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
         <child id="1167514678247" name="rootMappingRule" index="3lj3bC" />
       </concept>
@@ -246,7 +250,9 @@
   </registry>
   <node concept="bUwia" id="4cqtSm2C_xB">
     <property role="TrG5h" value="main" />
-    <property role="3GE5qa" value="TestStep.Form" />
+    <node concept="aNPBN" id="5B4kCGIbusT" role="aQYdv">
+      <ref role="aOQi4" to="tyly:4XeN$UOCQNN" resolve="TestStepMacro" />
+    </node>
     <node concept="3aamgX" id="26zJhEQFFpY" role="3acgRq">
       <ref role="30HIoZ" to="tyly:26zJhEQzy4q" resolve="TestScenario" />
       <node concept="j$656" id="26zJhEQFFqW" role="1lVwrX">
@@ -689,9 +695,6 @@
         <node concept="3clFbS" id="2RGvzciV4h7" role="3clF47">
           <node concept="3clFbF" id="2RGvzciV4h8" role="3cqZAp">
             <node concept="2OqwBi" id="2RGvzciV4hu" role="3clFbG">
-              <node concept="37vLTw" id="6X3Mcl9G4z6" role="2Oq$k0">
-                <ref role="3cqZAo" node="2RGvzciV4h0" resolve="driver" />
-              </node>
               <node concept="liA8E" id="2RGvzciV4h$" role="2OqNvi">
                 <ref role="37wK5l" to="t9m0:~WebDriver.get(java.lang.String):void" resolve="get" />
                 <node concept="Xl_RD" id="2RGvzciV4h_" role="37wK5m">
@@ -713,6 +716,9 @@
                     </node>
                   </node>
                 </node>
+              </node>
+              <node concept="37vLTw" id="5B4kCGIbArk" role="2Oq$k0">
+                <ref role="3cqZAo" node="2RGvzciV4h0" resolve="driver" />
               </node>
             </node>
             <node concept="raruj" id="2RGvzciV4hA" role="lGtFl" />
@@ -1941,7 +1947,7 @@
   </node>
   <node concept="13MO4I" id="1t9RnT4A1wC">
     <property role="TrG5h" value="reduce_JavaTestStep" />
-    <property role="3GE5qa" value="TestStep.Form" />
+    <property role="3GE5qa" value="" />
     <ref role="3gUMe" to="tyly:1t9RnT4yUuJ" resolve="JavaTestStep" />
     <node concept="312cEu" id="1t9RnT4A2yC" role="13RCb5">
       <property role="2bfB8j" value="true" />
@@ -2005,7 +2011,7 @@
   </node>
   <node concept="13MO4I" id="1t9RnT4AK9l">
     <property role="TrG5h" value="weave_JavaTestStep" />
-    <property role="3GE5qa" value="TestStep.Form" />
+    <property role="3GE5qa" value="" />
     <ref role="3gUMe" to="tyly:1t9RnT4yUuJ" resolve="JavaTestStep" />
     <node concept="312cEu" id="1t9RnT4AKbV" role="13RCb5">
       <property role="TrG5h" value="Dummy" />
@@ -2100,7 +2106,7 @@
   </node>
   <node concept="13MO4I" id="3JR6rnBAn8u">
     <property role="TrG5h" value="reduce_StaticVisibleText" />
-    <property role="3GE5qa" value="TestStep.Form" />
+    <property role="3GE5qa" value="" />
     <ref role="3gUMe" to="tyly:3JR6rnByWCk" resolve="StaticVisibleText" />
     <node concept="3cpWs8" id="3JR6rnBAofd" role="13RCb5">
       <node concept="3cpWsn" id="3JR6rnBAofg" role="3cpWs9">
@@ -2254,7 +2260,6 @@
   </node>
   <node concept="13MO4I" id="e5WlLSCONd">
     <property role="TrG5h" value="reduce_ClickPageObjectElementTestStep" />
-    <property role="3GE5qa" value="TestStep.Form" />
     <ref role="3gUMe" to="tyly:e5WlLSCMCV" resolve="ClickPageObjectElementTestStep" />
     <node concept="312cEu" id="e5WlLSD03t" role="13RCb5">
       <property role="2bfB8j" value="true" />

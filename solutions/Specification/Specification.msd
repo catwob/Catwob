@@ -9,6 +9,7 @@
   <dependencies>
     <dependency reexport="false">65e4f890-9636-4a04-bae0-d728c59d51f4(PageObjects)</dependency>
     <dependency reexport="false">b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)</dependency>
+    <dependency reexport="false">24046d77-bde0-43dd-a497-358dee7c5b81(runtime.libs)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:5a83eb2c-e3ac-4d55-a0b7-7a942f48e419:MyCatwobExtensions" version="0" />
@@ -39,6 +40,7 @@
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
+    <module reference="24046d77-bde0-43dd-a497-358dee7c5b81(runtime.libs)" version="0" />
     <module reference="b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)" version="0" />
   </dependencyVersions>
 </solution>

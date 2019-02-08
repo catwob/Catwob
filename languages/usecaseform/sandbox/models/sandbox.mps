@@ -88,9 +88,6 @@
       <concept id="5714731814611894450" name="seleniumtest.structure.TestStepList" flags="ng" index="3VRwVW">
         <child id="5714731814611898124" name="testSteps" index="3VRw52" />
       </concept>
-      <concept id="5714731814613118195" name="seleniumtest.structure.TestStepMacro" flags="ng" index="3VVqaX">
-        <child id="5714731814613118275" name="testStepList" index="3VVqcd" />
-      </concept>
     </language>
   </registry>
   <node concept="JggOK" id="2QvXcs2RJTL">
@@ -253,44 +250,5 @@
     </node>
   </node>
   <node concept="31IuQ2" id="4cqtSm2CU5_" />
-  <node concept="3VVqaX" id="2whY61c9M6R">
-    <property role="TrG5h" value="stef" />
-    <node concept="3VRwVW" id="2whY61c9M6S" role="3VVqcd">
-      <node concept="Z0bzU" id="2dkWLsnrrEz" role="3VRw52">
-        <node concept="Z0byf" id="2dkWLsnrrE$" role="Z0bzZ">
-          <property role="Z0byd" value="PetClinic :: a Spring Framework demonstration" />
-        </node>
-        <node concept="1scvqY" id="2dkWLsnrrE_" role="Z0bzZ">
-          <property role="1scvpx" value="Zeitdruck. Kostendruck. Warum nicht smarter Druck?" />
-          <node concept="3svdex" id="2dkWLsnrrEA" role="3svdOp">
-            <property role="3svdey" value="Find Owners" />
-          </node>
-        </node>
-        <node concept="1sevJ0" id="2dkWLsnrrEB" role="Z0bzS">
-          <property role="1sevI9" value="ctl02" />
-          <node concept="3svdex" id="2dkWLsnrrEC" role="3spGtF">
-            <property role="3svdey" value="menu_owners" />
-          </node>
-        </node>
-      </node>
-      <node concept="Z0bzU" id="2dkWLsnrrED" role="3VRw52">
-        <node concept="Z0byf" id="2dkWLsnrrEE" role="Z0bzZ">
-          <property role="Z0byd" value="PetClinic :: a Spring Framework demonstration" />
-        </node>
-        <node concept="1scvqY" id="2dkWLsnrrEF" role="Z0bzZ">
-          <property role="1scvpx" value="Print ist vielseitig." />
-          <node concept="3svdex" id="2dkWLsnrrEG" role="3svdOp">
-            <property role="3svdey" value="Helen Leary" />
-          </node>
-        </node>
-        <node concept="1sevJ0" id="2dkWLsnrrEH" role="Z0bzS">
-          <property role="1sevI9" value="ctl03" />
-          <node concept="3svdex" id="2dkWLsnrrEI" role="3spGtF">
-            <property role="3svdey" value="menu_veterinarians" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
 </model>
 

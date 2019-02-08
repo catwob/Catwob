@@ -80,7 +80,9 @@
         <property id="1186403713874" name="color" index="Vb096" />
         <child id="1186403803051" name="query" index="VblUZ" />
       </concept>
-      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2" />
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
+        <property id="1186403771423" name="style" index="Vbekb" />
+      </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
@@ -1257,7 +1259,7 @@
         <node concept="l2Vlx" id="3m83uObJYRE" role="2iSdaV" />
         <node concept="3F2HdR" id="3m83uObJYRB" role="3EZMnx">
           <ref role="1NtTu8" to="dby9:3m83uObJYQE" resolve="steps" />
-          <node concept="2iRkQZ" id="3m83uObJYRC" role="2czzBx" />
+          <node concept="2EHx9g" id="t_TIxZW$RA" role="2czzBx" />
           <node concept="lj46D" id="3m83uObJYRF" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -1469,6 +1471,12 @@
           <node concept="UkePV" id="7zxeQkCrcu" role="OY2wv">
             <ref role="Ul1FP" to="dby9:78EPK_h7hUh" resolve="ScenarioOutlineTemplate" />
           </node>
+        </node>
+        <node concept="Vb9p2" id="t_TIxZW6Fs" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
+        </node>
+        <node concept="VPxyj" id="t_TIxZVC0m" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F2HdR" id="78EPK_h7hUL" role="3EZMnx">

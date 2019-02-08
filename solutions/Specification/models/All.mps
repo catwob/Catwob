@@ -37,6 +37,7 @@
       <concept id="8226624104361172625" name="gherkin.structure.ScenarioOutlineTemplate" flags="ng" index="zdWAo">
         <child id="8226624104361172654" name="fragments" index="zdWAB" />
       </concept>
+      <concept id="8226624104361172647" name="gherkin.structure.ScenarioOutlineTemplateTextFragment" flags="ng" index="zdWAI" />
       <concept id="6588785161155487748" name="gherkin.structure.ITaggable" flags="ng" index="2zur$P">
         <child id="6588785161155487752" name="tags" index="2zur$T" />
       </concept>
@@ -55,6 +56,7 @@
       <concept id="3857348392598355673" name="gherkin.structure.GivenStep" flags="ng" index="YdVcO" />
       <concept id="3857348392598355672" name="gherkin.structure.IStep" flags="ng" index="YdVcP">
         <property id="7770493376438130832" name="isOpenPoint" index="NM8Su" />
+        <property id="3857348392598355677" name="text" index="YdVcK" />
       </concept>
       <concept id="3857348392598360002" name="gherkin.structure.ThenStep" flags="ng" index="YdW8J" />
       <concept id="3857348392598359998" name="gherkin.structure.WhenStep" flags="ng" index="YdW9j" />
@@ -212,6 +214,16 @@
           </node>
         </node>
         <node concept="3lDx2Z" id="2FcngeERmxr" role="_2tvS" />
+      </node>
+    </node>
+    <node concept="YdOgp" id="t_TIxZV_kK" role="1Yz8QI">
+      <property role="1jF_VR" value="bla" />
+      <node concept="YdOvI" id="t_TIxZV_li" role="YdOvz">
+        <property role="MzPNr" value="ddd" />
+        <node concept="YdVcO" id="t_TIxZV_ln" role="YdVcb">
+          <property role="YdVcK" value="asfsadf" />
+          <node concept="zdWAI" id="t_TIxZV_lo" role="zdWAB" />
+        </node>
       </node>
     </node>
     <node concept="2zArqD" id="7f2p02ZVeQ6" role="2zwxOJ">

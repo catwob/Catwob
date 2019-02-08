@@ -8,6 +8,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)</dependency>
+    <dependency reexport="false">24046d77-bde0-43dd-a497-358dee7c5b81(runtime.libs)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:cc4a6f18-bb5e-4187-ae12-d8dc9eac45ec:acceptanceTest" version="0" />
@@ -38,6 +39,7 @@
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
+    <module reference="24046d77-bde0-43dd-a497-358dee7c5b81(runtime.libs)" version="0" />
     <module reference="b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)" version="0" />
     <module reference="8512eb4f-c27c-4bf9-9e08-1fe8c33de969(usecaseform.sandbox)" version="0" />
   </dependencyVersions>
