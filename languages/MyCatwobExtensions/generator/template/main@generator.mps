@@ -9,13 +9,12 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="t9m0" ref="b06f6336-6262-4aa6-9077-6428311586c7/java:org.openqa.selenium(seleniumtest/)" />
     <import index="tyly" ref="r:ea55c8ba-f72e-4e24-b218-ab8f1262db67(seleniumtest.structure)" />
     <import index="gejo" ref="r:2057f3ad-19f6-44ca-bbd9-613e9b6a31fd(gherkin_with_seleniumtest.structure)" />
     <import index="dby9" ref="r:c9eb1d88-4e3a-40e9-8a39-ddcec7080a6e(gherkin.structure)" />
     <import index="rjhg" ref="49808fad-9d41-4b96-83fa-9231640f6b2b/java:org.junit(JUnit/)" />
-    <import index="ppox" ref="b06f6336-6262-4aa6-9077-6428311586c7/java:org.openqa.selenium.lift(seleniumtest/)" />
     <import index="4k19" ref="1fd846c3-c5f9-4b9e-9ecc-e716f7149f86/java:org.hamcrest(Hamcrest/)" />
+    <import index="t9m0" ref="24046d77-bde0-43dd-a497-358dee7c5b81/java:org.openqa.selenium(runtime.libs/)" />
     <import index="ytqb" ref="r:f24fb939-6892-4a5f-ba62-a9ac6c9199c9(MyCatwobExtensions.structure)" implicit="true" />
     <import index="9jwb" ref="r:663f7a51-47a7-4e34-9c3d-9851f3f536cf(seleniumtest.behavior)" implicit="true" />
   </imports>
@@ -147,7 +146,7 @@
       <node concept="312cEg" id="2RGvzciV55R" role="jymVt">
         <property role="TrG5h" value="driver" />
         <node concept="3Tm6S6" id="2RGvzciV55S" role="1B3o_S" />
-        <node concept="3uibUv" id="2RGvzciV55T" role="1tU5fm">
+        <node concept="3uibUv" id="t_TIxZSpPU" role="1tU5fm">
           <ref role="3uigEE" to="t9m0:~WebDriver" resolve="WebDriver" />
         </node>
       </node>
@@ -172,8 +171,8 @@
                 <node concept="liA8E" id="2lO_PJMtI77" role="2OqNvi">
                   <ref role="37wK5l" to="t9m0:~WebDriver.findElement(org.openqa.selenium.By):org.openqa.selenium.WebElement" resolve="findElement" />
                   <node concept="2YIFZM" id="2lO_PJMtI78" role="37wK5m">
-                    <ref role="37wK5l" to="t9m0:~By.xpath(java.lang.String):org.openqa.selenium.By" resolve="xpath" />
                     <ref role="1Pybhc" to="t9m0:~By" resolve="By" />
+                    <ref role="37wK5l" to="t9m0:~By.xpath(java.lang.String):org.openqa.selenium.By" resolve="xpath" />
                     <node concept="Xl_RD" id="2lO_PJMtI79" role="37wK5m">
                       <property role="Xl_RC" value="//a[contains(text(), 'Impressum')]" />
                     </node>

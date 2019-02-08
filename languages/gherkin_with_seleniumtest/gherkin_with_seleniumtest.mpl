@@ -48,7 +48,6 @@
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
-        <module reference="55555c08-2d82-4b20-9bb5-e0a924ba3742(SeleniumLibs.runtime)" version="0" />
         <module reference="cc4a6f18-bb5e-4187-ae12-d8dc9eac45ec(acceptanceTest)" version="0" />
         <module reference="50acd4f7-7413-4754-889f-75b097780731(gherkin)" version="0" />
         <module reference="db1020ba-f9b6-4964-a15b-2da816532a8e(gherkin_with_seleniumtest)" version="0" />

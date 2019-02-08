@@ -5,17 +5,6 @@
       <sourceRoot location="." />
     </modelRoot>
   </models>
-  <stubModelEntries>
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/solutions/SeleniumLibs.runtime/lib/phantomjsdriver-1.3.0.jar" />
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/solutions/SeleniumLibs.runtime/lib/junit-4.12.jar" />
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/solutions/SeleniumLibs.runtime/lib/httpmime-4.5.2.jar" />
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/solutions/SeleniumLibs.runtime/lib/httpcore-4.4.4.jar" />
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/solutions/SeleniumLibs.runtime/lib/httpclient-4.5.2.jar" />
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/solutions/SeleniumLibs.runtime/lib/gson-2.3.1.jar" />
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/solutions/SeleniumLibs.runtime/lib/commons-logging-1.2.jar" />
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/solutions/SeleniumLibs.runtime/lib/commons-exec-1.3.jar" />
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/solutions/SeleniumLibs.runtime/lib/commons-codec-1.10.jar" />
-  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)</dependency>

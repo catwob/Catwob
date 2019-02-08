@@ -7,7 +7,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator namespace="MyCatwobExtensions#178976831353768486" uuid="63b710d5-0d8b-45f8-bfc7-0e75298584eb">
+    <generator alias="" namespace="MyCatwobExtensions#178976831353768486" uuid="63b710d5-0d8b-45f8-bfc7-0e75298584eb">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
@@ -20,6 +20,7 @@
         <dependency reexport="false">b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)</dependency>
         <dependency reexport="false">49808fad-9d41-4b96-83fa-9231640f6b2b(JUnit)</dependency>
         <dependency reexport="false">1fd846c3-c5f9-4b9e-9ecc-e716f7149f86(Hamcrest)</dependency>
+        <dependency reexport="false">24046d77-bde0-43dd-a497-358dee7c5b81(runtime.libs)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:5a83eb2c-e3ac-4d55-a0b7-7a942f48e419:MyCatwobExtensions" version="0" />
@@ -72,6 +73,7 @@
         <module reference="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" version="1" />
         <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
         <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
+        <module reference="24046d77-bde0-43dd-a497-358dee7c5b81(runtime.libs)" version="0" />
         <module reference="b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)" version="0" />
       </dependencyVersions>
       <mapping-priorities />

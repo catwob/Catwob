@@ -5,20 +5,11 @@
       <sourceRoot location="." />
     </modelRoot>
   </models>
-  <stubModelEntries>
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/lib/junit-4.12.jar" />
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/lib/httpmime-4.5.2.jar" />
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/lib/httpcore-4.4.4.jar" />
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/lib/httpclient-4.5.2.jar" />
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/lib/gson-2.3.1.jar" />
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/lib/commons-logging-1.2.jar" />
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/lib/commons-exec-1.3.jar" />
-    <stubModelEntry path="C:/Users/jn/projects/Catwob/lib/commons-codec-1.10.jar" />
-  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">65e4f890-9636-4a04-bae0-d728c59d51f4(PageObjects)</dependency>
     <dependency reexport="false">b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)</dependency>
+    <dependency reexport="false">24046d77-bde0-43dd-a497-358dee7c5b81(runtime.libs)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:cc4a6f18-bb5e-4187-ae12-d8dc9eac45ec:acceptanceTest" version="0" />
@@ -44,6 +35,7 @@
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
+    <module reference="24046d77-bde0-43dd-a497-358dee7c5b81(runtime.libs)" version="0" />
     <module reference="b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)" version="0" />
     <module reference="7ff2b270-c727-44f9-a24d-3a118ba4a88c(seleniumtest.sandbox)" version="0" />
   </dependencyVersions>

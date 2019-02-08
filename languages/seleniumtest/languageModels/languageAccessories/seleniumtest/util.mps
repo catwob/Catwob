@@ -3,15 +3,14 @@
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
-    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="t9m0" ref="b06f6336-6262-4aa6-9077-6428311586c7/java:org.openqa.selenium(seleniumtest/)" />
     <import index="a19p" ref="49808fad-9d41-4b96-83fa-9231640f6b2b/java:org.junit.rules(JUnit/)" />
     <import index="cvlm" ref="49808fad-9d41-4b96-83fa-9231640f6b2b/java:org.junit.runner(JUnit/)" />
     <import index="7cms" ref="49808fad-9d41-4b96-83fa-9231640f6b2b/java:org.junit.runners.model(JUnit/)" />
+    <import index="t9m0" ref="24046d77-bde0-43dd-a497-358dee7c5b81/java:org.openqa.selenium(runtime.libs/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -134,7 +133,7 @@
     <node concept="Wx3nA" id="26zJhEQHYl7" role="jymVt">
       <property role="TrG5h" value="driver" />
       <property role="3TUv4t" value="false" />
-      <node concept="3uibUv" id="4cqtSm2CAIf" role="1tU5fm">
+      <node concept="3uibUv" id="t_TIxZQpFm" role="1tU5fm">
         <ref role="3uigEE" to="t9m0:~WebDriver" resolve="WebDriver" />
       </node>
       <node concept="3Tm1VV" id="1t9RnT4GF8M" role="1B3o_S" />
@@ -250,14 +249,14 @@
                           <ref role="1PxDUh" node="1t9RnT4Gyzg" resolve="ScreenshotTakingStatement" />
                           <ref role="3cqZAo" node="26zJhEQHYl7" resolve="driver" />
                         </node>
-                        <node concept="3uibUv" id="2dkWLsnhZVF" role="10QFUM">
+                        <node concept="3uibUv" id="t_TIxZQpYB" role="10QFUM">
                           <ref role="3uigEE" to="t9m0:~TakesScreenshot" resolve="TakesScreenshot" />
                         </node>
                       </node>
                     </node>
                     <node concept="liA8E" id="2dkWLsnhZVG" role="2OqNvi">
                       <ref role="37wK5l" to="t9m0:~TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType):java.lang.Object" resolve="getScreenshotAs" />
-                      <node concept="10M0yZ" id="2dkWLsnhZVH" role="37wK5m">
+                      <node concept="10M0yZ" id="t_TIxZQqqK" role="37wK5m">
                         <ref role="3cqZAo" to="t9m0:~OutputType.FILE" resolve="FILE" />
                         <ref role="1PxDUh" to="t9m0:~OutputType" resolve="OutputType" />
                       </node>

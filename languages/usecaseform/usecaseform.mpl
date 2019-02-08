@@ -13,12 +13,12 @@
           <sourceRoot location="." />
         </modelRoot>
       </models>
-      <external-templates>
-        <generator generatorUID="448e867d-b744-4964-99e4-5317b23b9a0d(seleniumtest#4835308565241681996)" />
-      </external-templates>
+      <external-templates />
       <dependencies>
         <dependency reexport="false">b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)</dependency>
         <dependency reexport="false">49808fad-9d41-4b96-83fa-9231640f6b2b(JUnit)</dependency>
+        <dependency reexport="false">24046d77-bde0-43dd-a497-358dee7c5b81(runtime.libs)</dependency>
+        <dependency reexport="false">448e867d-b744-4964-99e4-5317b23b9a0d(seleniumtest#4835308565241681996)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:cc4a6f18-bb5e-4187-ae12-d8dc9eac45ec:acceptanceTest" version="0" />
@@ -50,7 +50,6 @@
         <module reference="49808fad-9d41-4b96-83fa-9231640f6b2b(JUnit)" version="0" />
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
-        <module reference="55555c08-2d82-4b20-9bb5-e0a924ba3742(SeleniumLibs.runtime)" version="0" />
         <module reference="cc4a6f18-bb5e-4187-ae12-d8dc9eac45ec(acceptanceTest)" version="0" />
         <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
         <module reference="e39e4a59-8cb6-498e-860e-8fa8361c0d90(jetbrains.mps.baseLanguage.scopes)" version="0" />
@@ -61,6 +60,7 @@
         <module reference="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" version="0" />
         <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
         <module reference="9d5c9b81-eae4-4af1-9b07-751abdfe4484(permissions)" version="0" />
+        <module reference="24046d77-bde0-43dd-a497-358dee7c5b81(runtime.libs)" version="0" />
         <module reference="b06f6336-6262-4aa6-9077-6428311586c7(seleniumtest)" version="0" />
         <module reference="448e867d-b744-4964-99e4-5317b23b9a0d(seleniumtest#4835308565241681996)" version="0" />
         <module reference="ad483618-38b5-40d4-a3b4-315b97da81b0(usecaseform)" version="0" />

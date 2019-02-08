@@ -18,12 +18,13 @@
   <imports>
     <import index="ynoo" ref="r:9f7229f8-2b29-4871-bcfb-f094367d6e75(usecaseform.structure)" />
     <import index="sw2b" ref="r:37bb75eb-7241-486e-bae3-94317b6977e7(seleniumtest.generator.template.main@generator)" />
-    <import index="t9m0" ref="b06f6336-6262-4aa6-9077-6428311586c7/java:org.openqa.selenium(seleniumtest/)" />
-    <import index="1cyb" ref="b06f6336-6262-4aa6-9077-6428311586c7/java:org.openqa.selenium.firefox(seleniumtest/)" />
     <import index="tyly" ref="r:ea55c8ba-f72e-4e24-b218-ab8f1262db67(seleniumtest.structure)" />
     <import index="tpe5" ref="r:00000000-0000-4000-0000-011c895902d1(jetbrains.mps.baseLanguage.unitTest.behavior)" />
     <import index="j02o" ref="r:48e11a50-c2e4-498e-afc2-fefe986a3d00(seleniumtest.util)" />
     <import index="rjhg" ref="49808fad-9d41-4b96-83fa-9231640f6b2b/java:org.junit(JUnit/)" />
+    <import index="hpbs" ref="24046d77-bde0-43dd-a497-358dee7c5b81/java:org.openqa.selenium.firefox.internal(runtime.libs/)" />
+    <import index="t9m0" ref="24046d77-bde0-43dd-a497-358dee7c5b81/java:org.openqa.selenium(runtime.libs/)" />
+    <import index="1cyb" ref="24046d77-bde0-43dd-a497-358dee7c5b81/java:org.openqa.selenium.firefox(runtime.libs/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -105,7 +106,6 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
-      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
@@ -303,7 +303,7 @@
     <node concept="Wx3nA" id="26zJhEQHYl7" role="jymVt">
       <property role="TrG5h" value="driver" />
       <property role="3TUv4t" value="false" />
-      <node concept="3uibUv" id="4cqtSm2CAIf" role="1tU5fm">
+      <node concept="3uibUv" id="t_TIxZRLj$" role="1tU5fm">
         <ref role="3uigEE" to="t9m0:~WebDriver" resolve="WebDriver" />
       </node>
       <node concept="3Tm1VV" id="1t9RnT4GF8M" role="1B3o_S" />
@@ -354,8 +354,8 @@
         <node concept="3clFbF" id="4cqtSm2CAIg" role="3cqZAp">
           <node concept="37vLTI" id="4cqtSm2CAIA" role="3clFbG">
             <node concept="2ShNRf" id="4cqtSm2CAID" role="37vLTx">
-              <node concept="1pGfFk" id="4cqtSm2CATm" role="2ShVmc">
-                <ref role="37wK5l" to="1cyb:~FirefoxDriver.&lt;init&gt;()" resolve="FirefoxDriver" />
+              <node concept="HV5vD" id="t_TIxZRMT2" role="2ShVmc">
+                <ref role="HV5vE" to="1cyb:~FirefoxDriver" resolve="FirefoxDriver" />
               </node>
             </node>
             <node concept="37vLTw" id="7K0tVXpLVD1" role="37vLTJ">
