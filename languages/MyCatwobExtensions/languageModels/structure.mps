@@ -37,6 +37,7 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -153,8 +154,8 @@
     <node concept="PrWs8" id="7GZhm$CgYkR" role="PzmwI">
       <ref role="PrY4T" to="dby9:78EPK_h7hUj" resolve="IScenarioOutlineTemplateFragment" />
     </node>
-    <node concept="PrWs8" id="2QYIrmwrD8M" role="PzmwI">
-      <ref role="PrY4T" to="dby9:6JmlCTo74GP" resolve="IAssertTextProducer" />
+    <node concept="PrWs8" id="7XIB0qhFS4o" role="PzmwI">
+      <ref role="PrY4T" node="7XIB0qhFS4n" resolve="IAssertTextProducer" />
     </node>
   </node>
   <node concept="1TIwiD" id="6JmlCTo6yd2">
@@ -193,8 +194,8 @@
     <node concept="PrWs8" id="7GZhm$Ch4NS" role="PzmwI">
       <ref role="PrY4T" to="dby9:78EPK_h7hUj" resolve="IScenarioOutlineTemplateFragment" />
     </node>
-    <node concept="PrWs8" id="2QYIrmwrC2P" role="PzmwI">
-      <ref role="PrY4T" to="dby9:6JmlCTo74GP" resolve="IAssertTextProducer" />
+    <node concept="PrWs8" id="7XIB0qhFSq8" role="PzmwI">
+      <ref role="PrY4T" node="7XIB0qhFS4n" resolve="IAssertTextProducer" />
     </node>
   </node>
   <node concept="1TIwiD" id="6JmlCTo6pVb">
@@ -260,6 +261,10 @@
       <property role="IQ2nx" value="8935273324434392083" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="7XIB0qhFS4n">
+    <property role="EcuMT" value="9182448242282955031" />
+    <property role="TrG5h" value="IAssertTextProducer" />
   </node>
 </model>
 

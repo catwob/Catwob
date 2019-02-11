@@ -148,6 +148,11 @@
       <concept id="1167756080639" name="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" flags="in" index="3zFVjK" />
       <concept id="1167951910403" name="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery" flags="in" index="3JmXsc" />
     </language>
+    <language id="cc4a6f18-bb5e-4187-ae12-d8dc9eac45ec" name="acceptanceTest">
+      <concept id="6588785161157144170" name="acceptanceTest.structure.IAcceptanceTestCase" flags="ng" index="2zkJXr">
+        <property id="9182448242283100795" name="testCaseName" index="3IRMpX" />
+      </concept>
+    </language>
     <language id="9d5c9b81-eae4-4af1-9b07-751abdfe4484" name="permissions">
       <concept id="3287615388587588077" name="permissions.structure.Role" flags="ng" index="JggOE" />
       <concept id="3287615388587588087" name="permissions.structure.Roles" flags="ng" index="JggOK">
@@ -193,7 +198,6 @@
         <property id="2423988946885580149" name="testScenarioName" index="2ndixJ" />
       </concept>
       <concept id="4835308565241671536" name="seleniumtest.structure.TestCase" flags="ng" index="31I5zP">
-        <property id="2423988946885429228" name="testCaseName" index="2ndZFQ" />
         <child id="2423988946885119199" name="testScenarios" index="2nb375" />
       </concept>
     </language>
@@ -213,8 +217,8 @@
     </node>
   </node>
   <node concept="31I5zP" id="26zJhEQKJ$y">
-    <property role="2ndZFQ" value="dummy" />
     <property role="TrG5h" value="Dummy" />
+    <property role="3IRMpX" value="Dummy" />
     <node concept="2nbpK0" id="26zJhEQKJ$_" role="2nb375">
       <property role="2ndixJ" value="dummy" />
       <node concept="2b32R4" id="26zJhEQKJMg" role="lGtFl">

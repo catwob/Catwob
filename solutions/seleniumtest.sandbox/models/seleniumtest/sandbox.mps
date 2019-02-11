@@ -61,6 +61,11 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
+    <language id="cc4a6f18-bb5e-4187-ae12-d8dc9eac45ec" name="acceptanceTest">
+      <concept id="6588785161157144170" name="acceptanceTest.structure.IAcceptanceTestCase" flags="ng" index="2zkJXr">
+        <property id="9182448242283100795" name="testCaseName" index="3IRMpX" />
+      </concept>
+    </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -101,7 +106,6 @@
         <child id="3309158584036401664" name="elements" index="Z0dKN" />
       </concept>
       <concept id="4835308565241671536" name="seleniumtest.structure.TestCase" flags="ng" index="31I5zP">
-        <property id="2423988946885429228" name="testCaseName" index="2ndZFQ" />
         <child id="2423988946885119199" name="testScenarios" index="2nb375" />
       </concept>
       <concept id="4835308565241671539" name="seleniumtest.structure.OpenUrlTestStep" flags="ng" index="31I5zQ">
@@ -143,7 +147,7 @@
   </registry>
   <node concept="31I5zP" id="4cqtSm2CzvH">
     <property role="TrG5h" value="Navigate to Pet Clinic and add a new owner" />
-    <property role="2ndZFQ" value="Navigate to bluetype homepage and fill out contact form" />
+    <property role="3IRMpX" value="Navigate to Pet Clinic and add a new owner" />
     <node concept="2nbpK0" id="26zJhEQ_2mo" role="2nb375">
       <property role="TrG5h" value="the first scenario" />
       <property role="2ndixJ" value="Show usage of custom XPath and inline Java code" />

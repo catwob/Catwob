@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="tyly" ref="r:ea55c8ba-f72e-4e24-b218-ab8f1262db67(seleniumtest.structure)" />
+    <import index="p1jy" ref="r:74c6231c-4e3f-484f-aed5-3be67f89d8ab(acceptanceTest.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -231,7 +232,7 @@
         </node>
         <node concept="l2Vlx" id="4cqtSm2CyYC" role="2iSdaV" />
         <node concept="3F0A7n" id="5HK4j7SqX7M" role="3EZMnx">
-          <ref role="1NtTu8" to="tyly:26zJhEQ_4vG" resolve="testCaseName" />
+          <ref role="1NtTu8" to="p1jy:7XIB0qhGrDV" resolve="testCaseName" />
         </node>
       </node>
       <node concept="2iRkQZ" id="4cqtSm2CyYz" role="2iSdaV" />

@@ -8,6 +8,7 @@
   <imports>
     <import index="tyly" ref="r:ea55c8ba-f72e-4e24-b218-ab8f1262db67(seleniumtest.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="p1jy" ref="r:74c6231c-4e3f-484f-aed5-3be67f89d8ab(acceptanceTest.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -367,8 +368,8 @@
               </node>
               <node concept="2OqwBi" id="2fiY5DpQSq5" role="37vLTJ">
                 <node concept="_YI3z" id="2fiY5DpQSfI" role="2Oq$k0" />
-                <node concept="3TrcHB" id="2fiY5DpQSY3" role="2OqNvi">
-                  <ref role="3TsBF5" to="tyly:26zJhEQ_4vG" resolve="testCaseName" />
+                <node concept="3TrcHB" id="7XIB0qhI1K_" role="2OqNvi">
+                  <ref role="3TsBF5" to="p1jy:7XIB0qhGrDV" resolve="testCaseName" />
                 </node>
               </node>
             </node>
@@ -383,8 +384,8 @@
                 <node concept="10Nm6u" id="2fiY5DpQS7T" role="3uHU7w" />
                 <node concept="2OqwBi" id="2fiY5DpQR2y" role="3uHU7B">
                   <node concept="_YI3z" id="2fiY5DpQQLM" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="2fiY5DpQRvF" role="2OqNvi">
-                    <ref role="3TsBF5" to="tyly:26zJhEQ_4vG" resolve="testCaseName" />
+                  <node concept="3TrcHB" id="7XIB0qhI29S" role="2OqNvi">
+                    <ref role="3TsBF5" to="p1jy:7XIB0qhGrDV" resolve="testCaseName" />
                   </node>
                 </node>
               </node>

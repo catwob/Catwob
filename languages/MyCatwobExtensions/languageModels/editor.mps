@@ -34,6 +34,7 @@
     <import index="nacl" ref="r:bf6a1990-7f0a-419d-8f02-b5f6d84791de(MyCatwobExtensions.constraints)" />
     <import index="phsl" ref="r:82bacfc1-cabc-4efa-830e-23a4f86565ca(gherkin.behavior)" implicit="true" />
     <import index="tyly" ref="r:ea55c8ba-f72e-4e24-b218-ab8f1262db67(seleniumtest.structure)" implicit="true" />
+    <import index="as0f" ref="r:f748f9cd-3db9-4049-aa50-3cc1c3cd6a0a(MyCatwobExtensions.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
@@ -716,8 +717,8 @@
                 <node concept="3y3z36" id="1iilg4z5x2v" role="3uHU7B">
                   <node concept="2OqwBi" id="1iilg4z5x28" role="3uHU7B">
                     <node concept="pncrf" id="1iilg4z5x29" role="2Oq$k0" />
-                    <node concept="2qgKlT" id="2QYIrmwtt6i" role="2OqNvi">
-                      <ref role="37wK5l" to="phsl:6JmlCTo74GT" resolve="getTextValue" />
+                    <node concept="2qgKlT" id="7XIB0qhG8Tb" role="2OqNvi">
+                      <ref role="37wK5l" to="as0f:7XIB0qhG0IX" resolve="getTextValue" />
                     </node>
                   </node>
                   <node concept="10Nm6u" id="1iilg4z5x2y" role="3uHU7w" />
@@ -729,8 +730,8 @@
                   <node concept="2OqwBi" id="1iilg4z5x3h" role="3uHU7B">
                     <node concept="2OqwBi" id="1iilg4z5x2U" role="2Oq$k0">
                       <node concept="pncrf" id="1iilg4z5x2V" role="2Oq$k0" />
-                      <node concept="2qgKlT" id="2QYIrmwttya" role="2OqNvi">
-                        <ref role="37wK5l" to="phsl:6JmlCTo74GT" resolve="getTextValue" />
+                      <node concept="2qgKlT" id="7XIB0qhG9xP" role="2OqNvi">
+                        <ref role="37wK5l" to="as0f:7XIB0qhG0IX" resolve="getTextValue" />
                       </node>
                     </node>
                     <node concept="liA8E" id="1iilg4z5x3n" role="2OqNvi">
@@ -750,8 +751,8 @@
               <node concept="3clFbF" id="6JmlCTo7or4" role="3cqZAp">
                 <node concept="2OqwBi" id="6JmlCTo7orq" role="3clFbG">
                   <node concept="pncrf" id="6JmlCTo7or5" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="2QYIrmwttY4" role="2OqNvi">
-                    <ref role="37wK5l" to="phsl:6JmlCTo74GT" resolve="getTextValue" />
+                  <node concept="2qgKlT" id="7XIB0qhGa74" role="2OqNvi">
+                    <ref role="37wK5l" to="as0f:7XIB0qhG0IX" resolve="getTextValue" />
                   </node>
                 </node>
               </node>

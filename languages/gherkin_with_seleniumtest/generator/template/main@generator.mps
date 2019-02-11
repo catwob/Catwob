@@ -162,6 +162,11 @@
       </concept>
       <concept id="1216860049635" name="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" flags="nn" index="1iwH7S" />
     </language>
+    <language id="cc4a6f18-bb5e-4187-ae12-d8dc9eac45ec" name="acceptanceTest">
+      <concept id="6588785161157144170" name="acceptanceTest.structure.IAcceptanceTestCase" flags="ng" index="2zkJXr">
+        <property id="9182448242283100795" name="testCaseName" index="3IRMpX" />
+      </concept>
+    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
@@ -221,7 +226,6 @@
         <child id="3309158584036411083" name="action" index="Z0bzS" />
       </concept>
       <concept id="4835308565241671536" name="seleniumtest.structure.TestCase" flags="ng" index="31I5zP">
-        <property id="2423988946885429228" name="testCaseName" index="2ndZFQ" />
         <child id="2423988946885119199" name="testScenarios" index="2nb375" />
       </concept>
       <concept id="4835308565241671539" name="seleniumtest.structure.OpenUrlTestStep" flags="ng" index="31I5zQ">
@@ -352,8 +356,8 @@
     </node>
   </node>
   <node concept="31I5zP" id="38OAqMXl9x9">
-    <property role="2ndZFQ" value="Feature Root Mapping" />
     <property role="TrG5h" value="FeatureRootMapping" />
+    <property role="3IRMpX" value="FeatureRootMapping" />
     <node concept="2nbpK0" id="38OAqMXl9xd" role="2nb375">
       <property role="2ndixJ" value="Template Test Scenario" />
       <node concept="Z0bzU" id="38OAqMXl9xf" role="2nbvCD">
@@ -416,8 +420,8 @@
     <property role="TrG5h" value="reduce_Scenario" />
     <ref role="3gUMe" to="dby9:3m83uObJOC3" resolve="Scenario" />
     <node concept="31I5zP" id="38OAqMXlaSU" role="13RCb5">
-      <property role="2ndZFQ" value="DummyTestCase" />
       <property role="TrG5h" value="Dummy" />
+      <property role="3IRMpX" value="Dummy" />
       <node concept="2nbpK0" id="38OAqMXlaSX" role="2nb375">
         <property role="2ndixJ" value="selenium test scenario" />
         <node concept="raruj" id="38OAqMXlaT6" role="lGtFl" />
@@ -539,8 +543,8 @@
     </node>
   </node>
   <node concept="31I5zP" id="1t9RnT4QljX">
-    <property role="2ndZFQ" value="FeatureSetRootMapping" />
     <property role="TrG5h" value="FeatureSetRootMapping" />
+    <property role="3IRMpX" value="FeatureSetRootMapping" />
     <node concept="2nbpK0" id="1t9RnT4QZXP" role="2nb375">
       <property role="2ndixJ" value="Dummy" />
       <node concept="2b32R4" id="1t9RnT4R0_Z" role="lGtFl">
@@ -598,8 +602,8 @@
     <property role="TrG5h" value="reduce_ScenarioOutline" />
     <ref role="3gUMe" to="dby9:3m83uObK1rG" resolve="ScenarioOutline" />
     <node concept="31I5zP" id="3JR6rnB_E2O" role="13RCb5">
-      <property role="2ndZFQ" value="DummyTestCase" />
       <property role="TrG5h" value="Dummy" />
+      <property role="3IRMpX" value="Dummy" />
       <node concept="2nbpK0" id="3JR6rnB_E2P" role="2nb375">
         <property role="2ndixJ" value="selenium test scenario" />
         <node concept="raruj" id="3JR6rnB_E3B" role="lGtFl" />

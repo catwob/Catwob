@@ -2,13 +2,15 @@
 <model ref="r:c9eb1d88-4e3a-40e9-8a39-ddcec7080a6e(gherkin.structure)">
   <persistence version="9" />
   <languages>
+    <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="p1jy" ref="r:74c6231c-4e3f-484f-aed5-3be67f89d8ab(acceptanceTest.structure)" />
+    <import index="tpe3" ref="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
-    <import index="tpe3" ref="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" implicit="true" />
-    <import index="p1jy" ref="r:74c6231c-4e3f-484f-aed5-3be67f89d8ab(acceptanceTest.structure)" implicit="true" />
+    <import index="zqge" ref="r:59e90602-6655-4552-86eb-441a42a9a0e4(jetbrains.mps.lang.text.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -63,11 +65,6 @@
     <property role="19KtqR" value="true" />
     <property role="EcuMT" value="3857348392598325748" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="1t9RnT4TSe9" role="1TKVEl">
-      <property role="TrG5h" value="featureName" />
-      <property role="IQ2nx" value="1678115870563861385" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyj" id="3m83uObJOCe" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="scenarios" />
@@ -111,12 +108,6 @@
       <property role="IQ2ns" value="3857348392598355686" />
       <ref role="20lvS9" node="3m83uObJVVo" resolve="IStep" />
     </node>
-    <node concept="1TJgyj" id="7LAiWF7THF$" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="author" />
-      <property role="IQ2ns" value="8963935442636823268" />
-      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
-    </node>
     <node concept="PrWs8" id="3m83uObK1lV" role="PzmwI">
       <ref role="PrY4T" node="3m83uObK1lT" resolve="IScenario" />
     </node>
@@ -155,9 +146,6 @@
     <property role="34LRSv" value="given" />
     <property role="EcuMT" value="3857348392598355673" />
     <ref role="1TJDcQ" node="78EPK_h7hUh" resolve="ScenarioOutlineTemplate" />
-    <node concept="PrWs8" id="3m83uObJVVq" role="PzmwI">
-      <ref role="PrY4T" node="3m83uObJVVo" resolve="IStep" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3m83uObJWYY">
     <property role="3GE5qa" value="step" />
@@ -165,9 +153,6 @@
     <property role="34LRSv" value="when" />
     <property role="EcuMT" value="3857348392598359998" />
     <ref role="1TJDcQ" node="78EPK_h7hUh" resolve="ScenarioOutlineTemplate" />
-    <node concept="PrWs8" id="3m83uObJWYZ" role="PzmwI">
-      <ref role="PrY4T" node="3m83uObJVVo" resolve="IStep" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3m83uObJWZ2">
     <property role="3GE5qa" value="step" />
@@ -175,9 +160,6 @@
     <property role="34LRSv" value="then" />
     <property role="EcuMT" value="3857348392598360002" />
     <ref role="1TJDcQ" node="78EPK_h7hUh" resolve="ScenarioOutlineTemplate" />
-    <node concept="PrWs8" id="3m83uObJWZ3" role="PzmwI">
-      <ref role="PrY4T" node="3m83uObJVVo" resolve="IStep" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3m83uObJWZ5">
     <property role="3GE5qa" value="step" />
@@ -185,9 +167,6 @@
     <property role="34LRSv" value="but" />
     <property role="EcuMT" value="3857348392598360005" />
     <ref role="1TJDcQ" node="78EPK_h7hUh" resolve="ScenarioOutlineTemplate" />
-    <node concept="PrWs8" id="3m83uObJWZ6" role="PzmwI">
-      <ref role="PrY4T" node="3m83uObJVVo" resolve="IStep" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3m83uObJWZ9">
     <property role="3GE5qa" value="step" />
@@ -195,9 +174,6 @@
     <property role="34LRSv" value="and" />
     <property role="EcuMT" value="3857348392598360009" />
     <ref role="1TJDcQ" node="78EPK_h7hUh" resolve="ScenarioOutlineTemplate" />
-    <node concept="PrWs8" id="3m83uObJWZa" role="PzmwI">
-      <ref role="PrY4T" node="3m83uObJVVo" resolve="IStep" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3m83uObJX80">
     <property role="TrG5h" value="Tag" />
@@ -371,6 +347,7 @@
     <property role="TrG5h" value="FeatureSet" />
     <property role="19KtqR" value="true" />
     <property role="EcuMT" value="8106509643381773882" />
+    <property role="34LRSv" value="feature set" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3JR6rnBKB82" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -382,11 +359,6 @@
       <property role="TrG5h" value="hideDetails" />
       <property role="IQ2nx" value="2772763335109784059" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="3xUx1WaXd62" role="1TKVEl">
-      <property role="TrG5h" value="featureSetName" />
-      <property role="IQ2nx" value="4069710482145333634" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="7206T8e39oW" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -414,18 +386,25 @@
       <property role="IQ2ns" value="6588785161170717726" />
       <ref role="20lvS9" node="5HK4j7SUqrd" resolve="IScenarioFilter" />
     </node>
+    <node concept="1TJgyj" id="2fiY5DpEpz2" role="1TKVEi">
+      <property role="IQ2ns" value="2581398603371747522" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="description" />
+      <ref role="20lvS9" to="zqge:2cLqkTm6vgh" resolve="Text" />
+    </node>
     <node concept="PrWs8" id="7206T8e3cUQ" role="PzmwI">
       <ref role="PrY4T" node="7206T8e3cUO" resolve="IFeature" />
+    </node>
+    <node concept="PrWs8" id="2fiY5DpOaDf" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hoSGL_l" resolve="IMemberContainer" />
+    </node>
+    <node concept="PrWs8" id="7XIB0qhGrDQ" role="PzmwI">
+      <ref role="PrY4T" to="p1jy:5HK4j7S8ITE" resolve="IAcceptanceTestCase" />
     </node>
   </node>
   <node concept="PlHQZ" id="7206T8e3cUO">
     <property role="TrG5h" value="IFeature" />
     <property role="EcuMT" value="8106509643381788340" />
-    <node concept="1TJgyi" id="1t9RnT4WFKm" role="1TKVEl">
-      <property role="TrG5h" value="iFeatureName" />
-      <property role="IQ2nx" value="1678115870564596758" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="PrWs8" id="5HK4j7Sch4K" role="PrDN$">
       <ref role="PrY4T" to="p1jy:5HK4j7S8ITE" resolve="IAcceptanceTestCase" />
     </node>
@@ -568,20 +547,11 @@
       <ref role="PrY4T" node="5HK4j7SUqrd" resolve="IScenarioFilter" />
     </node>
   </node>
-  <node concept="PlHQZ" id="6JmlCTo77de">
-    <property role="TrG5h" value="IAssertNegatable" />
-    <property role="3GE5qa" value="scenario_outline" />
-    <property role="EcuMT" value="7770493376437973838" />
-    <node concept="1TJgyi" id="6JmlCTo77df" role="1TKVEl">
-      <property role="TrG5h" value="negated" />
-      <property role="IQ2nx" value="7770493376437973839" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="6JmlCTo74GP">
-    <property role="TrG5h" value="IAssertTextProducer" />
-    <property role="3GE5qa" value="scenario_outline" />
-    <property role="EcuMT" value="7770493376437963573" />
+  <node concept="1TIwiD" id="U8suFwyWwu">
+    <property role="EcuMT" value="1047212166967183390" />
+    <property role="3GE5qa" value="step" />
+    <property role="TrG5h" value="EmptyStep" />
+    <ref role="1TJDcQ" node="78EPK_h7hUh" resolve="ScenarioOutlineTemplate" />
   </node>
 </model>
 

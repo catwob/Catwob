@@ -57,7 +57,6 @@
         <reference id="5944908280819642928" name="placeholder" index="I2fM_" />
       </concept>
       <concept id="3857348392598325748" name="gherkin.structure.Feature" flags="ng" index="YdOgp">
-        <property id="1678115870563861385" name="featureName" index="1jF_VR" />
         <child id="3857348392598325774" name="scenarios" index="YdOvz" />
         <child id="3857348392598329079" name="info" index="YdPGq" />
       </concept>
@@ -94,11 +93,12 @@
       </concept>
       <concept id="4320950636552256672" name="gherkin.structure.ScenarioOutlineExampleLabel" flags="ng" index="3shIkl" />
       <concept id="8106509643381773882" name="gherkin.structure.FeatureSet" flags="ng" index="1Yz8QC">
-        <property id="4069710482145333634" name="featureSetName" index="Mz_mt" />
         <child id="8106509643381773884" name="features" index="1Yz8QI" />
       </concept>
-      <concept id="8106509643381788340" name="gherkin.structure.IFeature" flags="ng" index="1YzdkA">
-        <property id="1678115870564596758" name="iFeatureName" index="1jIQ5C" />
+    </language>
+    <language id="cc4a6f18-bb5e-4187-ae12-d8dc9eac45ec" name="acceptanceTest">
+      <concept id="6588785161157144170" name="acceptanceTest.structure.IAcceptanceTestCase" flags="ng" index="2zkJXr">
+        <property id="9182448242283100795" name="testCaseName" index="3IRMpX" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -139,13 +139,11 @@
     </language>
   </registry>
   <node concept="1Yz8QC" id="30ZjTyY1Fft">
-    <property role="Mz_mt" value="A feature set" />
-    <property role="1jIQ5C" value="A feature set" />
     <property role="TrG5h" value="A feature set" />
+    <property role="3IRMpX" value="A feature set" />
     <node concept="YdOgp" id="30ZjTyY1Fgm" role="1Yz8QI">
       <property role="TrG5h" value="Open a url" />
-      <property role="1jIQ5C" value="A Feature" />
-      <property role="1jF_VR" value="Open a url" />
+      <property role="3IRMpX" value="Open a url" />
       <node concept="YdXZH" id="5HK4j7SJKgO" role="2zur$T">
         <property role="TrG5h" value="new" />
       </node>
@@ -329,9 +327,8 @@
     </node>
   </node>
   <node concept="YdOgp" id="3JR6rnByLDK">
-    <property role="1jIQ5C" value="Feature with Scenario Outline" />
     <property role="TrG5h" value="Feature_with_Scenario_Outline" />
-    <property role="1jF_VR" value="Feature_with_Scenario_Outline" />
+    <property role="3IRMpX" value="Feature_with_Scenario_Outline" />
     <node concept="Yi1G1" id="3JR6rnByVqe" role="YdOvz">
       <property role="TrG5h" value="Click on bluetype tabs" />
       <property role="3skQxK" value="Navigate Petclinic tabs" />

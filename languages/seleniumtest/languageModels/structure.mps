@@ -91,11 +91,6 @@
     <property role="19KtqR" value="true" />
     <property role="EcuMT" value="4835308565241671536" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="26zJhEQ_4vG" role="1TKVEl">
-      <property role="TrG5h" value="testCaseName" />
-      <property role="IQ2nx" value="2423988946885429228" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyj" id="26zJhEQzSNv" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="testScenarios" />

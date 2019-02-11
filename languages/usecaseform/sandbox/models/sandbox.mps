@@ -64,7 +64,6 @@
         <child id="3309158584036401664" name="elements" index="Z0dKN" />
       </concept>
       <concept id="4835308565241671536" name="seleniumtest.structure.TestCase" flags="ng" index="31I5zP">
-        <property id="2423988946885429228" name="testCaseName" index="2ndZFQ" />
         <child id="2423988946885119199" name="testScenarios" index="2nb375" />
       </concept>
       <concept id="4835308565241671539" name="seleniumtest.structure.OpenUrlTestStep" flags="ng" index="31I5zQ">
@@ -107,7 +106,6 @@
     <property role="2DHsJ7" value="09.12.2012" />
     <property role="2DHsJ6" value="Jens Nerche" />
     <property role="2DHsJ1" value="1" />
-    <property role="2ndZFQ" value="Anonymes Surfen" />
     <property role="1U3U2z" value="Surf anonymously" />
     <node concept="2nbpK0" id="26zJhEQ_2mo" role="2nb375">
       <property role="TrG5h" value="the first scenario" />

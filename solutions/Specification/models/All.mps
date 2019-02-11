@@ -37,7 +37,6 @@
       <concept id="8226624104361172625" name="gherkin.structure.ScenarioOutlineTemplate" flags="ng" index="zdWAo">
         <child id="8226624104361172654" name="fragments" index="zdWAB" />
       </concept>
-      <concept id="8226624104361172647" name="gherkin.structure.ScenarioOutlineTemplateTextFragment" flags="ng" index="zdWAI" />
       <concept id="6588785161155487748" name="gherkin.structure.ITaggable" flags="ng" index="2zur$P">
         <child id="6588785161155487752" name="tags" index="2zur$T" />
       </concept>
@@ -45,7 +44,6 @@
         <property id="6588785161170167707" name="tagName" index="2zArqE" />
       </concept>
       <concept id="3857348392598325748" name="gherkin.structure.Feature" flags="ng" index="YdOgp">
-        <property id="1678115870563861385" name="featureName" index="1jF_VR" />
         <child id="3857348392598325774" name="scenarios" index="YdOvz" />
         <child id="3857348392598329079" name="info" index="YdPGq" />
       </concept>
@@ -56,7 +54,6 @@
       <concept id="3857348392598355673" name="gherkin.structure.GivenStep" flags="ng" index="YdVcO" />
       <concept id="3857348392598355672" name="gherkin.structure.IStep" flags="ng" index="YdVcP">
         <property id="7770493376438130832" name="isOpenPoint" index="NM8Su" />
-        <property id="3857348392598355677" name="text" index="YdVcK" />
       </concept>
       <concept id="3857348392598360002" name="gherkin.structure.ThenStep" flags="ng" index="YdW8J" />
       <concept id="3857348392598359998" name="gherkin.structure.WhenStep" flags="ng" index="YdW9j" />
@@ -67,13 +64,14 @@
       </concept>
       <concept id="8106509643381773882" name="gherkin.structure.FeatureSet" flags="ng" index="1Yz8QC">
         <property id="2772763335109784059" name="hideDetails" index="_2ehF" />
-        <property id="4069710482145333634" name="featureSetName" index="Mz_mt" />
         <child id="6588785161170717726" name="scenarioFilters" index="2zwxOJ" />
         <child id="7770493376438168162" name="customStatistic" index="NMjNG" />
         <child id="8106509643381773884" name="features" index="1Yz8QI" />
       </concept>
-      <concept id="8106509643381788340" name="gherkin.structure.IFeature" flags="ng" index="1YzdkA">
-        <property id="1678115870564596758" name="iFeatureName" index="1jIQ5C" />
+    </language>
+    <language id="cc4a6f18-bb5e-4187-ae12-d8dc9eac45ec" name="acceptanceTest">
+      <concept id="6588785161157144170" name="acceptanceTest.structure.IAcceptanceTestCase" flags="ng" index="2zkJXr">
+        <property id="9182448242283100795" name="testCaseName" index="3IRMpX" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -97,9 +95,8 @@
     </language>
   </registry>
   <node concept="YdOgp" id="1t9RnT57QTI">
-    <property role="1jIQ5C" value="Progress" />
     <property role="TrG5h" value="Progress" />
-    <property role="1jF_VR" value="Progress" />
+    <property role="3IRMpX" value="Progress" />
     <node concept="YdOvI" id="9VQBFnRsBf" role="YdOvz">
       <property role="MzPNr" value="first scenario with progress" />
       <node concept="YdVcO" id="19klT6sUAHi" role="YdVcb">
@@ -132,15 +129,13 @@
     </node>
   </node>
   <node concept="1Yz8QC" id="69m0eZfZa_V">
-    <property role="1jIQ5C" value="A Feature Set" />
     <property role="_2ehF" value="false" />
     <property role="TrG5h" value="Basic Features" />
-    <property role="Mz_mt" value="Basic Features" />
+    <property role="3IRMpX" value="Basic Features" />
     <node concept="2HESjB" id="69m0eZg0xGc" role="NMjNG" />
     <node concept="YdOgp" id="69m0eZfZnzm" role="1Yz8QI">
-      <property role="1jIQ5C" value="Custom Statistic" />
       <property role="TrG5h" value="At the Home Page, there is..." />
-      <property role="1jF_VR" value="At the Home Page, there is..." />
+      <property role="3IRMpX" value="At the Home Page, there is..." />
       <node concept="2dLi1V" id="7f2p02ZO26h" role="YdPGq">
         <property role="_VZeG" value="C:\Users\jn\Pictures\spring-petclinit-home.PNG" />
       </node>
@@ -214,16 +209,6 @@
           </node>
         </node>
         <node concept="3lDx2Z" id="2FcngeERmxr" role="_2tvS" />
-      </node>
-    </node>
-    <node concept="YdOgp" id="t_TIxZV_kK" role="1Yz8QI">
-      <property role="1jF_VR" value="bla" />
-      <node concept="YdOvI" id="t_TIxZV_li" role="YdOvz">
-        <property role="MzPNr" value="ddd" />
-        <node concept="YdVcO" id="t_TIxZV_ln" role="YdVcb">
-          <property role="YdVcK" value="asfsadf" />
-          <node concept="zdWAI" id="t_TIxZV_lo" role="zdWAB" />
-        </node>
       </node>
     </node>
     <node concept="2zArqD" id="7f2p02ZVeQ6" role="2zwxOJ">
